@@ -1,7 +1,8 @@
 .header__navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 214px;
+  gap: 182px;
+  padding: 29px 0;
 }
