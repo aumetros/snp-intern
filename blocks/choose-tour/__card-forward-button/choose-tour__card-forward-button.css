@@ -13,8 +13,8 @@
   flex-direction: row;
   align-items: center;
   gap: 15px;
-}
-
-.choose-tour__card-forward-button:hover {
-  background-color: #286562;
+  color: #FFFFFF;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
 }

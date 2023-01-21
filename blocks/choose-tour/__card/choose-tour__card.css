@@ -5,10 +5,17 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   position: relative;
   color: #FFFFFF;
   padding: 50px;
-  box-sizing: border-box;
-  z-index: 0;
+  box-sizing: border-box;  
+  cursor: pointer;
+}
+
+.choose-tour__card:hover .choose-tour__card-foto {
+  transform: scale(1.2);
+}
+
+.choose-tour__card:hover .choose-tour__card-forward-button {
+  background-color: #286562;
 }
