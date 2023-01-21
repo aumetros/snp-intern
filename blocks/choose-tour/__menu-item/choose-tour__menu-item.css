@@ -1,0 +1,11 @@
+.choose-tour__menu-item {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.choose-tour__menu-item:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
