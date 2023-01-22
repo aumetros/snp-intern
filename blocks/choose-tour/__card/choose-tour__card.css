@@ -1,13 +1,14 @@
 .choose-tour__card {
-  min-width: 370px;
+  width: 370px;
   min-height: 531px;
   border-radius: 50px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   position: relative;
   color: #FFFFFF;
-  padding: 50px;
+  padding: 50px 50px 43px;
   box-sizing: border-box;  
   cursor: pointer;
 }

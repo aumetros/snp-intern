@@ -1,9 +1,9 @@
 .choose-tour__card-forward-button {
-  position: absolute;
+  display: inline-block;
   bottom: 43px;
   left: 30px;
   z-index: 2;
-  min-width: 199px;
+  width: 199px;
   min-height: 42px;
   padding: 7px 20px;
   border: 0;
@@ -17,4 +17,8 @@
   font-size: 23px;
   font-weight: 700;
   line-height: 28px;
+  transform: translateX(-20px);
 }
+
+/** Реализовал расположение кнопки без position absolute для предупреждение наложения текста карточки 
+на текст кнопки при переполнении контейнера**/
