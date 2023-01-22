@@ -20,3 +20,7 @@
 .choose-tour__card:hover .choose-tour__card-forward-button {
   background-color: #286562;
 }
+
+.choose-tour__card:active .choose-tour__card-forward-button {
+  background-color: #EFA501;
+}

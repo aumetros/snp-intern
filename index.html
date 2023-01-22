@@ -10,7 +10,7 @@
   <title>YourTour</title>
 </head>
 
-<body>
+<body class="body">
 
   <div class="page">
 
@@ -155,6 +155,56 @@
           </li>
 
         </ul>
+      </section>
+
+      <section class="collect-tour">
+
+        <h2 class="collect-tour__title">Собери свой тур</h2>
+
+        <p class="collect-tour__subtitle">
+          Идейные соображения высшего порядка,а также рамки и место обучения кадров
+        </p>
+
+        <form class="collect-tour__form">
+
+          <input class="collect-tour__form-name">
+
+          <input class="collect-tour__form-direction">
+
+          <input class="collect-tour__form-email">
+
+          <input class="collect-tour__form-phone">
+
+          <input class="collect-tour__form-date-from">
+
+          <input class="collect-tour__form-date-to">
+
+          <input class="collect-tour__form-comment">
+
+          <div class="collect-tour__form-age-check">
+            <p class="collect-tour__form-age-check-text">Вам есть 18 лет?</p>
+            
+            <input type="radio" name="choice" id="yes" value="yes">
+            <label for="yes">Да</label>
+            
+            <input type="radio" name="choice" id="no" value="no">
+            <label for="no">Нет</label>
+          </div>
+
+          <div class="collect-tour__form-agree">
+            <input type="checkbox" name="agree" value="agree" required>
+            <p class="collect-tour__form-agree-text">
+              Нажимая кнопку, я принимаю условия Лицензионного договора
+            </p>
+          </div>
+
+          <div class="collect-tour__form-buttons">
+            <button class="collect-tour__form-submit-button">Найти тур</button>
+            <button class="collect-tour__form-reset-button">Сбросить</button>
+          </div>
+
+        </form>
+
       </section>
 
     </main>
