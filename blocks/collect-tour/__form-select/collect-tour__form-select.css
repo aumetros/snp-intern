@@ -1,4 +1,4 @@
-.collect-tour__form-input {
+.collect-tour__form-select {
   width: 500px;
   height: 68px;
   border: 1px solid #F4F0E9;
@@ -10,16 +10,13 @@
   font-weight: 400;
   line-height: 28px;
   cursor: pointer;
-}
-
-.collect-tour__form-input::placeholder {
   color: #A6A6A6;
 }
 
-.collect-tour__form-input:hover {
+.collect-tour__form-select:hover {
   background-color: #F4F0E9;
 }
 
-.collect-tour__form-input:focus {
+.collect-tour__form-select:focus {
   outline: 1px solid #A6A6A6;
 }
