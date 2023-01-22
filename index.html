@@ -162,12 +162,26 @@
         <h2 class="collect-tour__title">Собери свой тур</h2>
 
         <p class="collect-tour__subtitle">
-          Идейные соображения высшего порядка,а также рамки и место обучения кадров
+          Идейные соображения высшего порядка, а также рамки и место обучения кадров
         </p>
 
         <form class="collect-tour__form">
 
-          <input class="collect-tour__form-name">
+          <div class="collect-tour__form-item">
+            <label class="collect-tour__form-label" for="name">Имя</label>
+            <input class="collect-tour__form-input collect-tour__form-input-name" id="name" name="name"
+              placeholder="Введите Ваше имя">
+          </div>
+
+          <div class="collect-tour__form-item">
+            <label class="collect-tour__form-label" for="direction">Направление</label>
+            <select class="collect-tour__form-input  collect-tour__form-input-direction" id="direction" name="direction">
+              <option value="" disabled selected hidden>Куда хотите ехать</option>
+              <option value="Санкт-Петербург">Санкт-Петербург</option>
+              <option value="Лондон">Лондон</option>
+              <option value="Ямайка">Ямайка</option>
+            </select>
+          </div>
 
           <input class="collect-tour__form-direction">
 
@@ -181,27 +195,29 @@
 
           <input class="collect-tour__form-comment">
 
-          <div class="collect-tour__form-age-check">
+
+
+          <fieldset class="collect-tour__form-age-check">
             <p class="collect-tour__form-age-check-text">Вам есть 18 лет?</p>
-            
+
             <input type="radio" name="choice" id="yes" value="yes">
             <label for="yes">Да</label>
-            
+
             <input type="radio" name="choice" id="no" value="no">
             <label for="no">Нет</label>
-          </div>
+          </fieldset>
 
-          <div class="collect-tour__form-agree">
+          <fieldset class="collect-tour__form-agree">
             <input type="checkbox" name="agree" value="agree" required>
             <p class="collect-tour__form-agree-text">
               Нажимая кнопку, я принимаю условия Лицензионного договора
             </p>
-          </div>
+          </fieldset>
 
-          <div class="collect-tour__form-buttons">
+          <fieldset class="collect-tour__form-buttons">
             <button class="collect-tour__form-submit-button">Найти тур</button>
             <button class="collect-tour__form-reset-button">Сбросить</button>
-          </div>
+          </fieldset>
 
         </form>
 

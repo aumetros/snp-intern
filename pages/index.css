@@ -26,3 +26,11 @@
 @import url(../blocks/choose-tour/__card-subtitle/choose-tour__card-subtitle.css);
 @import url(../blocks/choose-tour/__card-forward-button/choose-tour__card-forward-button.css);
 @import url(../blocks/choose-tour/__card-button-arrow/choose-tour__card-button-arrow.css);
+
+@import url(../blocks/collect-tour/collect-tour.css);
+@import url(../blocks/collect-tour/__title/collect-tour__title.css);
+@import url(../blocks/collect-tour/__subtitle/collect-tour__subtitle.css);
+@import url(../blocks/collect-tour/__form/collect-tour__form.css);
+@import url(../blocks/collect-tour/__form-item/collect-tour__form-item.css);
+@import url(../blocks/collect-tour/__form-input/collect-tour__form-input.css);
+@import url(../blocks/collect-tour/__form-label/collect-tour__form-label.css);

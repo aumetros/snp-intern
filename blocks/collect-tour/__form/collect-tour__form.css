@@ -1,0 +1,13 @@
+.collect-tour__form {
+  max-width: 1170px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  padding: 70px;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  column-gap: 30px;
+  row-gap: 33px;
+}
