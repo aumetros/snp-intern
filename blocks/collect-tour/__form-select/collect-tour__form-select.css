@@ -1,8 +1,7 @@
 .collect-tour__form-select {
   width: 500px;
   height: 68px;
-  border: 1px solid #F4F0E9;
-  background-color: #F9F7F4;
+  border: 1px solid #F4F0E9;  
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
@@ -11,6 +10,14 @@
   line-height: 28px;
   cursor: pointer;
   color: #A6A6A6;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-position: calc(100% - 21px) center !important;
+  background: url('../../../images/dropdown-img.svg');
+  background-repeat: no-repeat;  
+  background-size: 26px 26px;
+  background-color: #F9F7F4;
 }
 
 .collect-tour__form-select:hover {
