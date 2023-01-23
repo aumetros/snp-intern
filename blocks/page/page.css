@@ -1,6 +1,8 @@
 .page {
   max-width: 1920px;
   margin: 0 auto;
+  color: #1B1F2B;
+  background-color: #F9F7F4;
   font-family: 'Roboto', 'Arial', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

@@ -10,12 +10,11 @@
   <title>YourTour</title>
 </head>
 
-<body>
+<body class="body">
 
   <div class="page">
 
     <header class="header">
-
       <div class="header__navbar">
 
         <div class="header__logo"></div>
@@ -26,7 +25,7 @@
           <li class="header__menu-item">Отзывы</li>
           <li class="header__menu-item">Истории</li>
         </ul>
-  
+
         <span class="header__phone-number">+7 999 999 99 99</span>
 
       </div>
@@ -35,11 +34,218 @@
 
       <p class="header__subtitle">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
 
-      <button class="header__find-button" type="button">Найти тур</button>      
-
+      <button class="header__find-button" type="button">Найти тур</button>
     </header>
 
-    <main>
+    <main class="content">
+
+      <section class="choose-tour">
+        <h2 class="choose-tour__title">Выбери свой тур</h2>
+
+        <ul class="choose-tour__menu">
+          <li class="choose-tour__menu-item choose-tour__menu-item_active">Популярные</li>
+          <li class="choose-tour__menu-item">Авторские</li>
+          <li class="choose-tour__menu-item">Походы</li>
+          <li class="choose-tour__menu-item">Сплавы</li>
+          <li class="choose-tour__menu-item">Велопрогулки</li>
+        </ul>
+
+        <ul class="choose-tour__cards">
+
+          <li class="choose-tour__card">
+            <img class="choose-tour__card-foto" src="./images/card-tour-photo-1.jpg"
+              alt="Старенький дом на колесах у берега озера">
+
+            <div class="choose-tour__card-text-container">
+              <h3 class="choose-tour__card-title">Путешествие в&nbsp;горы</h3>
+              <p class="choose-tour__card-subtitle">от 80 000 руб</p>
+            </div>
+
+            <button class="choose-tour__card-forward-button">
+              <span>Подробнее</span>
+              <div class="choose-tour__card-button-arrow"></div>
+            </button>
+
+            <div class="choose-tour__card-overlay"></div>
+          </li>
+
+          <li class="choose-tour__card">
+            <img class="choose-tour__card-foto" src="./images/card-tour-photo-2.jpg"
+              alt="Девушка, сидящая посреди барханов">
+
+            <div class="choose-tour__card-text-container">
+              <h3 class="choose-tour__card-title">Путешествие в&nbsp;горы</h3>
+              <p class="choose-tour__card-subtitle">от 80 000 руб</p>
+            </div>
+
+            <button class="choose-tour__card-forward-button">
+              <span>Подробнее</span>
+              <div class="choose-tour__card-button-arrow"></div>
+            </button>
+
+            <div class="choose-tour__card-overlay"></div>
+          </li>
+
+          <li class="choose-tour__card">
+            <img class="choose-tour__card-foto" src="./images/card-tour-photo-3.jpg"
+              alt="Группа людей, сидящая у обрыва на фоне морского порта">
+
+            <div class="choose-tour__card-text-container">
+              <h3 class="choose-tour__card-title">Путешествие в&nbsp;горы</h3>
+              <p class="choose-tour__card-subtitle">от 80 000 руб</p>
+            </div>
+
+            <button class="choose-tour__card-forward-button">
+              <span>Подробнее</span>
+              <div class="choose-tour__card-button-arrow"></div>
+            </button>
+
+            <div class="choose-tour__card-overlay"></div>
+          </li>
+
+          <li class="choose-tour__card">
+            <img class="choose-tour__card-foto" src="./images/card-tour-photo-4.jpg"
+              alt="Тесная улочка старинного города">
+
+            <div class="choose-tour__card-text-container">
+              <h3 class="choose-tour__card-title">Путешествие в&nbsp;горы</h3>
+              <p class="choose-tour__card-subtitle">от 80 000 руб</p>
+            </div>
+
+            <button class="choose-tour__card-forward-button">
+              <span>Подробнее</span>
+              <div class="choose-tour__card-button-arrow"></div>
+            </button>
+
+            <div class="choose-tour__card-overlay"></div>
+          </li>
+
+          <li class="choose-tour__card">
+            <img class="choose-tour__card-foto" src="./images/card-tour-photo-5.jpg"
+              alt="Разноцветные кабинки для переодевания на берегу моря">
+
+            <div class="choose-tour__card-text-container">
+              <h3 class="choose-tour__card-title">Путешествие в&nbsp;горы</h3>
+              <p class="choose-tour__card-subtitle">от 80 000 руб</p>
+            </div>
+
+            <button class="choose-tour__card-forward-button">
+              <span>Подробнее</span>
+              <div class="choose-tour__card-button-arrow"></div>
+            </button>
+
+            <div class="choose-tour__card-overlay"></div>
+          </li>
+
+          <li class="choose-tour__card">
+            <img class="choose-tour__card-foto" src="./images/card-tour-photo-6.jpg"
+              alt="Человек, сидящий на пристани у зеркальной воды на фоне высоких гор">
+
+            <div class="choose-tour__card-text-container">
+              <h3 class="choose-tour__card-title">Путешествие в&nbsp;горы</h3>
+              <p class="choose-tour__card-subtitle">от 80 000 руб</p>
+            </div>
+
+            <button class="choose-tour__card-forward-button">
+              <span>Подробнее</span>
+              <div class="choose-tour__card-button-arrow"></div>
+            </button>
+
+            <div class="choose-tour__card-overlay"></div>
+          </li>
+
+        </ul>
+      </section>
+
+      <section class="collect-tour">
+
+        <h2 class="collect-tour__title">Собери свой тур</h2>
+
+        <p class="collect-tour__subtitle">
+          Идейные соображения высшего порядка, а также рамки и место обучения кадров
+        </p>
+
+        <form class="collect-tour__form">
+
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="name">Имя</label>
+            <input class="collect-tour__form-input collect-tour__form-input-name" id="name" name="name" type="text"
+              placeholder="Введите Ваше имя" required>
+          </div>
+
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="direction">Направление</label>
+            <select class="collect-tour__form-select  collect-tour__form-select-direction" id="direction"
+              name="direction" required>
+              <option disabled selected hidden>Куда хотите ехать</option>
+              <option value="Санкт-Петербург">Санкт-Петербург</option>
+              <option value="Лондон">Лондон</option>
+              <option value="Ямайка">Ямайка</option>
+            </select>
+          </div>
+
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="email">Email</label>
+            <input class="collect-tour__form-input collect-tour__form-email" id="email" name="email" type="email"
+              placeholder="example@mail.com" required>
+          </div>
+
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="phone">Телефон</label>
+            <input class="collect-tour__form-input collect-tour__form-phone" id="phone" name="phone" type="tel"
+              placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
+          </div>
+
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="date-from">Дата от</label>
+            <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-from" id="date-from"
+              name="date-from" type="date" required>
+          </div>
+
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="date-to">Дата до</label>
+            <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-to" id="date-to"
+              name="date-to" type="date" required>
+          </div>
+
+          <div class="collect-tour__form-container_size_wide">
+            <label class="collect-tour__form-label" for="comment">Комментарий</label>
+            <textarea class="collect-tour__form-comment" id="comment" name="comment"></textarea>
+          </div>
+
+          <div class="collect-tour__form-container_size_wide">
+            <p class="collect-tour__form-label">Вам есть 18 лет?</p>
+
+            <div>
+              <input type="radio" name="choice" id="yes" value="yes">
+              <label class="collect-tour__form-label" for="yes">Да</label>
+
+              <input type="radio" name="choice" id="no" value="no">
+              <label class="collect-tour__form-label" for="no">Нет</label>
+            </div>
+
+          </div>
+
+          <div class="collect-tour__form-container_size_wide">
+            <input type="checkbox" name="agree" value="agree" required>
+            <p class="collect-tour__form-agree-text">
+              Нажимая кнопку, я принимаю условия Лицензионного договора
+            </p>
+          </div>
+
+
+          <fieldset class="collect-tour__form-agree">
+
+          </fieldset>
+
+          <fieldset class="collect-tour__form-buttons">
+            <button class="collect-tour__form-submit-button">Найти тур</button>
+            <button class="collect-tour__form-reset-button">Сбросить</button>
+          </fieldset>
+
+        </form>
+
+      </section>
 
     </main>
 

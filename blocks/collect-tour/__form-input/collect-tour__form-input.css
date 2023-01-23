@@ -1,0 +1,37 @@
+.collect-tour__form-input {
+  width: 500px;
+  height: 68px;
+  border: 1px solid #F4F0E9;
+  background-color: #F9F7F4;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.collect-tour__form-input::placeholder {
+  color: #A6A6A6;
+}
+
+.collect-tour__form-input::-webkit-input-placeholder {
+  color: #A6A6A6;
+}
+
+.collect-tour__form-input::-moz-placeholder {
+  color: #A6A6A6;
+}
+
+.collect-tour__form-input::-ms-input-placeholder {
+  color: #A6A6A6;
+}
+
+.collect-tour__form-input:hover {
+  background-color: #F4F0E9;
+}
+
+.collect-tour__form-input:focus {
+  outline: 1px solid #A6A6A6;
+}

@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 
+@import url(../blocks/body/body.css);
+
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -9,3 +11,30 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__find-button/header__find-button.css);
+
+@import url(../blocks/choose-tour/choose-tour.css);
+@import url(../blocks/choose-tour/__title/choose-tour__title.css);
+@import url(../blocks/choose-tour/__menu/choose-tour__menu.css);
+@import url(../blocks/choose-tour/__menu-item/choose-tour__menu-item.css);
+@import url(../blocks/choose-tour/__menu-item/_active/choose-tour__menu-item_active.css);
+@import url(../blocks/choose-tour/__cards/choose-tour__cards.css);
+@import url(../blocks/choose-tour/__card/choose-tour__card.css);
+@import url(../blocks/choose-tour/__card-foto/choose-tour__card-foto.css);
+@import url(../blocks/choose-tour/__choose-tour__card-overlay/choose-tour__card-overlay.css);
+@import url(../blocks/choose-tour/__card-text-container/choose-tour__card-text-container.css);
+@import url(../blocks/choose-tour/__card-title/choose-tour__card-title.css);
+@import url(../blocks/choose-tour/__card-subtitle/choose-tour__card-subtitle.css);
+@import url(../blocks/choose-tour/__card-forward-button/choose-tour__card-forward-button.css);
+@import url(../blocks/choose-tour/__card-button-arrow/choose-tour__card-button-arrow.css);
+
+@import url(../blocks/collect-tour/collect-tour.css);
+@import url(../blocks/collect-tour/__title/collect-tour__title.css);
+@import url(../blocks/collect-tour/__subtitle/collect-tour__subtitle.css);
+@import url(../blocks/collect-tour/__form/collect-tour__form.css);
+@import url(../blocks/collect-tour/__form-container/_size/collect-tour__form-container_size_normal.css);
+@import url(../blocks/collect-tour/__form-input/collect-tour__form-input.css);
+@import url(../blocks/collect-tour/__form-label/collect-tour__form-label.css);
+@import url(../blocks/collect-tour/__form-select/collect-tour__form-select.css);
+@import url(../blocks/collect-tour/__form-date/collect-tour__form-date.css);
+@import url(../blocks/collect-tour/__form-container/_size/collect-tour__form-container_size_wide.css);
+@import url(../blocks/collect-tour/__form-comment/collect-tour__form-comment.css);
