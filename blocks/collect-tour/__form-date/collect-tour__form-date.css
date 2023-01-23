@@ -1,0 +1,8 @@
+.collect-tour__form-date {
+  color: #A6A6A6;
+  text-transform: uppercase;
+}
+
+.collect-tour__form-date::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}

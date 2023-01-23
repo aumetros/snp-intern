@@ -167,16 +167,16 @@
 
         <form class="collect-tour__form">
 
-          <div class="collect-tour__form-item">
+          <div class="collect-tour__form-container_size_normal">
             <label class="collect-tour__form-label" for="name">Имя</label>
-            <input class="collect-tour__form-input collect-tour__form-input-name" id="name" name="name"
-              placeholder="Введите Ваше имя">
+            <input class="collect-tour__form-input collect-tour__form-input-name" id="name" name="name" type="text"
+              placeholder="Введите Ваше имя" required>
           </div>
 
-          <div class="collect-tour__form-item">
+          <div class="collect-tour__form-container_size_normal">
             <label class="collect-tour__form-label" for="direction">Направление</label>
             <select class="collect-tour__form-select  collect-tour__form-select-direction" id="direction"
-              name="direction">
+              name="direction" required>
               <option disabled selected hidden>Куда хотите ехать</option>
               <option value="Санкт-Петербург">Санкт-Петербург</option>
               <option value="Лондон">Лондон</option>
@@ -184,35 +184,58 @@
             </select>
           </div>
 
-          <input class="collect-tour__form-direction">
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="email">Email</label>
+            <input class="collect-tour__form-input collect-tour__form-email" id="email" name="email" type="email"
+              placeholder="example@mail.com" required>
+          </div>
 
-          <input class="collect-tour__form-email">
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="phone">Телефон</label>
+            <input class="collect-tour__form-input collect-tour__form-phone" id="phone" name="phone" type="tel"
+              placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
+          </div>
 
-          <input class="collect-tour__form-phone">
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="date-from">Дата от</label>
+            <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-from" id="date-from"
+              name="date-from" type="date" required>
+          </div>
 
-          <input class="collect-tour__form-date-from">
+          <div class="collect-tour__form-container_size_normal">
+            <label class="collect-tour__form-label" for="date-to">Дата до</label>
+            <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-to" id="date-to"
+              name="date-to" type="date" required>
+          </div>
 
-          <input class="collect-tour__form-date-to">
+          <div class="collect-tour__form-container_size_wide">
+            <label class="collect-tour__form-label" for="comment">Комментарий</label>
+            <textarea class="collect-tour__form-comment" id="comment" name="comment"></textarea>
+          </div>
 
-          <input class="collect-tour__form-comment">
+          <div class="collect-tour__form-container_size_wide">
+            <p class="collect-tour__form-label">Вам есть 18 лет?</p>
 
+            <div>
+              <input type="radio" name="choice" id="yes" value="yes">
+              <label class="collect-tour__form-label" for="yes">Да</label>
 
+              <input type="radio" name="choice" id="no" value="no">
+              <label class="collect-tour__form-label" for="no">Нет</label>
+            </div>
 
-          <fieldset class="collect-tour__form-age-check">
-            <p class="collect-tour__form-age-check-text">Вам есть 18 лет?</p>
+          </div>
 
-            <input type="radio" name="choice" id="yes" value="yes">
-            <label for="yes">Да</label>
-
-            <input type="radio" name="choice" id="no" value="no">
-            <label for="no">Нет</label>
-          </fieldset>
-
-          <fieldset class="collect-tour__form-agree">
+          <div class="collect-tour__form-container_size_wide">
             <input type="checkbox" name="agree" value="agree" required>
             <p class="collect-tour__form-agree-text">
               Нажимая кнопку, я принимаю условия Лицензионного договора
             </p>
+          </div>
+
+
+          <fieldset class="collect-tour__form-agree">
+
           </fieldset>
 
           <fieldset class="collect-tour__form-buttons">
@@ -231,7 +254,7 @@
     </footer>
 
   </div>
-  
+
 </body>
 
 </html>
