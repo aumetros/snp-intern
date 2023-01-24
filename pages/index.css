@@ -42,3 +42,9 @@
 @import url(../blocks/collect-tour/__form-pseudo/_type/collect-tour__form-pseudo_type_radio.css);
 @import url(../blocks/collect-tour/__form-radios/collect-tour__form-radios.css);
 @import url(../blocks/collect-tour/__form-label/_el/_radio/collect-tour__form-label_el_radio.css);
+@import url(../blocks/collect-tour/__form-checkbox/collect-tour__form-checkbox.css);
+@import url(../blocks/collect-tour/__form-pseudo/_type/collect-tour__form-pseudo_type_checkbox.css);
+@import url(../blocks/collect-tour/__form-agree-text/collect-tour__form-agree-text.css);
+@import url(../blocks/collect-tour/__form-agree-link/collect-tour__form-agree-link.css);
+@import url(../blocks/collect-tour/__form-submit-button/collect-tour__form-submit-button.css);
+@import url(../blocks/collect-tour/__form-reset-button/collect-tour__form-reset-button.css);

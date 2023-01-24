@@ -216,9 +216,9 @@
           <div class="collect-tour__form-container_size_wide">
             <span class="collect-tour__form-label">Вам есть 18 лет?</span>
 
-            <fieldset class="collect-tour__form-radios">
+            <div class="collect-tour__form-radios">
               <label class="collect-tour__form-label collect-tour__form-label_el_radio" for="yes">
-                <input class="collect-tour__form-radio" type="radio" name="adult" id="yes" value="yes">                
+                <input class="collect-tour__form-radio" type="radio" name="adult" id="yes" value="yes">
                 <span class="collect-tour__form-pseudo_type_radio"></span>
                 <span>Да</span>
               </label>
@@ -228,26 +228,32 @@
                 <span class="collect-tour__form-pseudo_type_radio"></span>
                 <span>Нет</span>
               </label>
-            </fieldset>
+            </div>
 
           </div>
 
           <div class="collect-tour__form-container_size_wide">
-            <input type="checkbox" name="agree" value="agree" required>
-            <p class="collect-tour__form-agree-text">
-              Нажимая кнопку, я принимаю условия Лицензионного договора
-            </p>
+
+            <div>
+              <label class="collect-tour__form-label">
+                <input class="collect-tour__form-checkbox" type="checkbox" name="agree" value="agree" required>
+                <span class="collect-tour__form-pseudo_type_checkbox"></span>
+              </label>
+
+              <span class="collect-tour__form-agree-text">Нажимая кнопку, я принимаю условия </span><a
+                class="collect-tour__form-agree-link" href="#" target="_blank">Лицензионного договора</a>
+            </div>
+
           </div>
 
+          <div class="collect-tour__form-container_size_wide">
 
-          <fieldset class="collect-tour__form-agree">
+            <div>
+              <button class="collect-tour__form-submit-button" type="submit">Найти тур</button>
+              <button class="collect-tour__form-reset-button" type="reset">Сбросить</button>
+            </div>
 
-          </fieldset>
-
-          <fieldset class="collect-tour__form-buttons">
-            <button class="collect-tour__form-submit-button">Найти тур</button>
-            <button class="collect-tour__form-reset-button">Сбросить</button>
-          </fieldset>
+          </div>
 
         </form>
 
