@@ -1,0 +1,11 @@
+.collect-tour__form-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.collect-tour__form-radio:checked + .collect-tour__form-pseudo_type_radio {
+  background-image: url(../../../images/radiobtn-checked-img.svg);
+}

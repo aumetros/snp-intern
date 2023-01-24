@@ -214,15 +214,21 @@
           </div>
 
           <div class="collect-tour__form-container_size_wide">
-            <p class="collect-tour__form-label">Вам есть 18 лет?</p>
+            <span class="collect-tour__form-label">Вам есть 18 лет?</span>
 
-            <div>
-              <input type="radio" name="choice" id="yes" value="yes">
-              <label class="collect-tour__form-label" for="yes">Да</label>
+            <fieldset class="collect-tour__form-radios">
+              <label class="collect-tour__form-label collect-tour__form-label_el_radio" for="yes">
+                <input class="collect-tour__form-radio" type="radio" name="adult" id="yes" value="yes">                
+                <span class="collect-tour__form-pseudo_type_radio"></span>
+                <span>Да</span>
+              </label>
 
-              <input type="radio" name="choice" id="no" value="no">
-              <label class="collect-tour__form-label" for="no">Нет</label>
-            </div>
+              <label class="collect-tour__form-label collect-tour__form-label_el_radio" for="no">
+                <input class="collect-tour__form-radio" type="radio" name="adult" id="no" value="no">
+                <span class="collect-tour__form-pseudo_type_radio"></span>
+                <span>Нет</span>
+              </label>
+            </fieldset>
 
           </div>
 

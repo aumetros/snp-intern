@@ -1,0 +1,11 @@
+.collect-tour__form-pseudo_type_radio {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-image: url(../../../../images/radiobtn-unchecked-img.svg);
+  background-size: 26px 26px;
+  background-position: left;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  padding-right: 11px;
+}
