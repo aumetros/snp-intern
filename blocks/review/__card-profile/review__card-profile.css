@@ -1,0 +1,7 @@
+.review__card-profile {
+  display: grid;
+  grid-template-columns: 1fr 75px;
+  grid-template-rows: auto auto;
+  row-gap: 8px;
+  margin-top: 70px;
+}

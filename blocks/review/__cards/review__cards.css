@@ -1,0 +1,7 @@
+.review__cards {
+  margin: 0 auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(318px, 1fr));
+  gap: 30px;
+}
