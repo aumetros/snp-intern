@@ -1,0 +1,22 @@
+.collect-tour__form-submit-button {
+  min-width: 235px;
+  min-height: 58;
+  border: 0;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-right: 30px;
+  background-color: #286562;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.collect-tour__form-submit-button:hover {
+  background-color: #3B7E7B;
+}
+
+.collect-tour__form-submit-button:active {
+  background-color: #627F7E;
+}

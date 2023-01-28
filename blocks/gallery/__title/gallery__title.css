@@ -1,0 +1,8 @@
+.gallery__title {
+  max-width: 780px;
+  margin: 0 auto 30px;
+  font-size: 59px;
+  font-weight: 700;
+  line-height: 73px;
+  text-align: center;
+}

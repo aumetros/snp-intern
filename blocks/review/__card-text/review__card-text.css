@@ -1,0 +1,10 @@
+.review__card-text {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0 0 28px;
+}
+
+.review__card-text:last-of-type {
+  margin-bottom: 0;
+}

@@ -1,0 +1,10 @@
+.review__card {
+  min-height: 673px;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #F4F0E9;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
