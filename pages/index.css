@@ -66,3 +66,18 @@
 @import url(../blocks/gallery/__item/gallery__item.css);
 
 @import url(../blocks/stories/stories.css);
+@import url(../blocks/stories/__title/stories__title.css);
+@import url(../blocks/stories/__subtitle/stories__subtitle.css);
+@import url(../blocks/stories/__cards/stories__cards.css);
+@import url(../blocks/stories/__card/stories__card.css);
+@import url(../blocks/stories/__card-image/stories__card-image.css);
+@import url(../blocks/stories/__card-overlay/stories__card-overlay.css);
+@import url(../blocks/stories/__card-text/stories__card-text.css);
+@import url(../blocks/stories/__card-title/stories__card-title.css);
+@import url(../blocks/stories/__card-description/stories__card-description.css);
+@import url(../blocks/stories/__card-list/stories__card-list.css);
+@import url(../blocks/stories/__card-footer/stories__card-footer.css);
+@import url(../blocks/stories/__card-forward-button/stories__card-forward-button.css);
+@import url(../blocks/stories/__card-arrow-button/stories__card-arrow-button.css);
+@import url(../blocks/stories/__card-links/stories__card-links.css);
+@import url(../blocks/stories/__card-link/stories__card-link.css);

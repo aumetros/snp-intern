@@ -1,0 +1,26 @@
+.stories__card {
+  width: 100%;
+  min-height: 567px;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 60px;
+  color: #FFFFFF;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.stories__card:hover .stories__card-forward-button {
+  background-color: #286562;
+}
+
+.stories__card:active .stories__card-forward-button {
+  background-color: #EFA501;
+}
+
+.stories__card:hover .stories__card-image {
+  transform: scale(1.2);
+}
