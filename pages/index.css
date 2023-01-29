@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 
+@import url(../vendor/fonts/fonts.css);
+
 @import url(../blocks/body/body.css);
 
 @import url(../blocks/page/page.css);
@@ -81,3 +83,10 @@
 @import url(../blocks/stories/__card-arrow-button/stories__card-arrow-button.css);
 @import url(../blocks/stories/__card-links/stories__card-links.css);
 @import url(../blocks/stories/__card-link/stories__card-link.css);
+
+@import url(../blocks/mail/mail.css);
+@import url(../blocks/mail/__foto/mail__foto.css);
+@import url(../blocks/mail/__text/mail__text.css);
+@import url(../blocks/mail/__title/mail__title.css);
+@import url(../blocks/mail/__subtitle/mail__subtitle.css);
+@import url(../blocks/mail/__link/mail__link.css);
