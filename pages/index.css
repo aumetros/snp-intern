@@ -90,3 +90,9 @@
 @import url(../blocks/mail/__title/mail__title.css);
 @import url(../blocks/mail/__subtitle/mail__subtitle.css);
 @import url(../blocks/mail/__link/mail__link.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
