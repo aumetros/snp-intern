@@ -64,3 +64,5 @@
 @import url(../blocks/gallery/__subtitle/gallery__subtitle.css);
 @import url(../blocks/gallery/__container/gallery__container.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
+
+@import url(../blocks/stories/stories.css);
