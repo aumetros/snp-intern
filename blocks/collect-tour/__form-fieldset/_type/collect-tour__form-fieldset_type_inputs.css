@@ -1,0 +1,6 @@
+.collect-tour__form-fieldset_type_inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  column-gap: 30px;
+  row-gap: 33px;
+}

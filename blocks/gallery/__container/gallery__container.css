@@ -1,7 +1,7 @@
 .gallery__container {
-  padding: 0 30px;
+  padding: 0 19px;
   display: grid;
-  grid-template-columns: 4fr 1fr 3fr 2fr 2fr 3fr 1fr 4fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 301px);
   gap: 30px;
 }

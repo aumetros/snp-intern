@@ -1,4 +1,6 @@
 .choose-tour__menu-item_active {
   color: #EFA501;
-  border-bottom: 2px solid #EFA501;
+  /* border-bottom: 2px solid #EFA501; */
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }

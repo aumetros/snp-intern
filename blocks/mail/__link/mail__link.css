@@ -1,0 +1,11 @@
+.mail__link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #1B1F2B;
+  text-decoration: none;
+}
+
+.mail__link:hover {
+  text-decoration: underline;
+}

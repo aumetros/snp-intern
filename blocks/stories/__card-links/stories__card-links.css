@@ -1,0 +1,9 @@
+.stories__card-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

@@ -1,5 +1,6 @@
 .collect-tour__form-pseudo_type_checkbox {
   display: inline-block;
+  padding-top: 6px;
   width: 26px;
   height: 26px;
   background-image: url(../../../../images/checkboxbtn-unchecked-img.svg);
