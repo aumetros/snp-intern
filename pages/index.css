@@ -52,6 +52,9 @@
 @import url(../blocks/collect-tour/__form-agree-link/collect-tour__form-agree-link.css);
 @import url(../blocks/collect-tour/__form-submit-button/collect-tour__form-submit-button.css);
 @import url(../blocks/collect-tour/__form-reset-button/collect-tour__form-reset-button.css);
+@import url(../blocks/collect-tour/__form-fieldset/collect-tour__form-fieldset.css);
+@import url(../blocks/collect-tour/__form-fieldset/_type/collect-tour__form-fieldset_type_inputs.css);
+@import url(../blocks/collect-tour/__form-fieldset/_type/collect-tour__form-fieldset_type_checkboxes.css);
 
 @import url(../blocks/review/review.css);
 @import url(../blocks/review/__title/review__title.css);

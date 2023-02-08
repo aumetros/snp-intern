@@ -1,4 +1,6 @@
 .footer__socials-icon_el_vk {
   background-image: url(../../../../images/vk-icon-img.svg);
   background-size: 20px 12px;
+  margin: 2px 8px 0 0;
+  margin-right: 8px;
 }

@@ -10,5 +10,5 @@
 
 .choose-tour__menu-item:hover {
   text-decoration: underline;
-  text-underline-offset: 6px;
+  text-underline-offset: 10px;
 }

@@ -185,53 +185,58 @@
 
         <form class="collect-tour__form">
 
-          <div class="collect-tour__form-container_size_normal">
-            <label class="collect-tour__form-label" for="name">Имя</label>
-            <input class="collect-tour__form-input collect-tour__form-input-name" id="name" name="name" type="text"
-              placeholder="Введите Ваше имя" required>
-          </div>
+          <fieldset class="collect-tour__form-fieldset collect-tour__form-fieldset_type_inputs">
 
-          <div class="collect-tour__form-container_size_normal">
-            <label class="collect-tour__form-label" for="direction">Направление</label>
-            <select class="collect-tour__form-select  collect-tour__form-select-direction" id="direction"
-              name="direction" required>
-              <option disabled selected hidden>Куда хотите ехать</option>
-              <option value="Санкт-Петербург">Санкт-Петербург</option>
-              <option value="Лондон">Лондон</option>
-              <option value="Ямайка">Ямайка</option>
-            </select>
-          </div>
+            <div class="collect-tour__form-container_size_normal">
+              <label class="collect-tour__form-label" for="name">Имя</label>
+              <input class="collect-tour__form-input collect-tour__form-input-name" id="name" name="name" type="text"
+                placeholder="Введите Ваше имя" required>
+            </div>
 
-          <div class="collect-tour__form-container_size_normal">
-            <label class="collect-tour__form-label" for="email">Email</label>
-            <input class="collect-tour__form-input collect-tour__form-email" id="email" name="email" type="email"
-              placeholder="example@mail.com" required>
-          </div>
+            <div class="collect-tour__form-container_size_normal">
+              <label class="collect-tour__form-label" for="direction">Направление</label>
+              <select class="collect-tour__form-select  collect-tour__form-select-direction" id="direction"
+                name="direction" required>
+                <option disabled selected hidden>Куда хотите ехать</option>
+                <option value="Санкт-Петербург">Санкт-Петербург</option>
+                <option value="Лондон">Лондон</option>
+                <option value="Ямайка">Ямайка</option>
+              </select>
+            </div>
 
-          <div class="collect-tour__form-container_size_normal">
-            <label class="collect-tour__form-label" for="phone">Телефон</label>
-            <input class="collect-tour__form-input collect-tour__form-phone" id="phone" name="phone" type="tel"
-              placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
-          </div>
+            <div class="collect-tour__form-container_size_normal">
+              <label class="collect-tour__form-label" for="email">Email</label>
+              <input class="collect-tour__form-input collect-tour__form-email" id="email" name="email" type="email"
+                placeholder="example@mail.com" required>
+            </div>
 
-          <div class="collect-tour__form-container_size_normal">
-            <label class="collect-tour__form-label" for="date-from">Дата от</label>
-            <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-from" id="date-from"
-              name="date-from" type="date" required>
-          </div>
+            <div class="collect-tour__form-container_size_normal">
+              <label class="collect-tour__form-label" for="phone">Телефон</label>
+              <input class="collect-tour__form-input collect-tour__form-phone" id="phone" name="phone" type="tel"
+                placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
+            </div>
 
-          <div class="collect-tour__form-container_size_normal">
-            <label class="collect-tour__form-label" for="date-to">Дата до</label>
-            <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-to" id="date-to"
-              name="date-to" type="date" required>
-          </div>
+            <div class="collect-tour__form-container_size_normal">
+              <label class="collect-tour__form-label" for="date-from">Дата от</label>
+              <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-from"
+                id="date-from" name="date-from" type="date" required>
+            </div>
 
-          <div class="collect-tour__form-container_size_wide">
-            <label class="collect-tour__form-label" for="comment">Комментарий</label>
-            <textarea class="collect-tour__form-comment" id="comment" name="comment"></textarea>
-          </div>
+            <div class="collect-tour__form-container_size_normal">
+              <label class="collect-tour__form-label" for="date-to">Дата до</label>
+              <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-to" id="date-to"
+                name="date-to" type="date" required>
+            </div>
 
-          <div class="collect-tour__form-container_size_wide">
+            <div class="collect-tour__form-container_size_wide">
+              <label class="collect-tour__form-label" for="comment">Комментарий</label>
+              <textarea class="collect-tour__form-comment" id="comment" name="comment"></textarea>
+            </div>
+
+          </fieldset>
+
+          <fieldset class="collect-tour__form-fieldset collect-tour__form-fieldset_type_checkboxes">
+
             <span class="collect-tour__form-label">Вам есть 18 лет?</span>
 
             <div class="collect-tour__form-radios">
@@ -248,10 +253,6 @@
               </label>
             </div>
 
-          </div>
-
-          <div class="collect-tour__form-container_size_wide">
-
             <div>
               <label class="collect-tour__form-label">
                 <input class="collect-tour__form-checkbox" type="checkbox" name="agree" value="agree" required>
@@ -262,7 +263,7 @@
                 class="collect-tour__form-agree-link" href="#" target="_blank">Лицензионного договора</a>
             </div>
 
-          </div>
+          </fieldset>
 
           <div class="collect-tour__form-container_size_wide">
 
@@ -281,7 +282,7 @@
 
         <h2 class="review__title">Отзывы&nbsp;наших путешественников</h2>
 
-        <p class="review__subtitle">Идейные соображения высшего порядка, а&nbsp;также рамки и место обучения кадров</p>
+        <p class="review__subtitle">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
 
         <div class="review__cards">
 
@@ -330,7 +331,7 @@
       <section class="gallery">
         <h2 class="gallery__title">Фотографии путешествий</h2>
 
-        <p class="gallery__subtitle">Идейные соображения высшего порядка, а&nbsp;также рамки и место обучения кадров</p>
+        <p class="gallery__subtitle">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
 
         <div class="gallery__container">
           <img src="./images/gallery-01-img.png" alt="Взлетающий над побережьем самолёт" class="gallery__item">
@@ -355,7 +356,7 @@
 
       <section id="stories" class="stories">
         <h2 class="stories__title">Истории путешествий</h2>
-        <p class="stories__subtitle">Идейные соображения высшего порядка, а&nbsp;также рамки и место обучения кадров</p>
+        <p class="stories__subtitle">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
 
         <div class="stories__cards">
 
