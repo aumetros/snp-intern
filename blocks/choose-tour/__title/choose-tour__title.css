@@ -1,9 +1,9 @@
 .choose-tour__title {
+  max-width: 473px;
   font-size: 59px;
   font-weight: 700;
   line-height: 73px;
   margin: 0;
   text-align: center;
-  letter-spacing: -1px;
   margin-bottom: 35px;
 }

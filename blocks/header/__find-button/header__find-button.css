@@ -1,6 +1,7 @@
 .header__find-button {
   min-width: 118px;
-  min-height: 34px;  
+  min-height: 34px;
+  padding: 5px 20px;
   background-color: #FFFFFF;
   border-radius: 10px;
   border: 0;

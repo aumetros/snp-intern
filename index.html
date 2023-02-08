@@ -20,13 +20,21 @@
         <div class="header__logo"></div>
 
         <ul class="header__menu">
-          <li class="header__menu-item">Туры</li>
-          <li class="header__menu-item">Создать тур</li>
-          <li class="header__menu-item">Отзывы</li>
-          <li class="header__menu-item">Истории</li>
+          <li>
+            <a href="#choose-tour" class="header__menu-item">Туры</a>
+          </li>
+          <li>
+            <a href="#collect-tour" class="header__menu-item">Создать тур</a>
+          </li>
+          <li>
+            <a href="#review" class="header__menu-item">Отзывы</a>
+          </li>
+          <li>
+            <a href="#stories" class="header__menu-item">Истории</a>
+          </li>
         </ul>
 
-        <span class="header__phone-number">+7 999 999 99 99</span>
+        <a href="tel:+79999999999" class="header__phone-number">+7 999 999 99 99</a>
 
       </div>
 
@@ -39,15 +47,25 @@
 
     <main class="content">
 
-      <section class="choose-tour">
+      <section id="choose-tour" class="choose-tour">
         <h2 class="choose-tour__title">Выбери свой тур</h2>
 
         <ul class="choose-tour__menu">
-          <li class="choose-tour__menu-item choose-tour__menu-item_active">Популярные</li>
-          <li class="choose-tour__menu-item">Авторские</li>
-          <li class="choose-tour__menu-item">Походы</li>
-          <li class="choose-tour__menu-item">Сплавы</li>
-          <li class="choose-tour__menu-item">Велопрогулки</li>
+          <li>
+            <button class="choose-tour__menu-item choose-tour__menu-item_active">Популярные</button>
+          </li>
+          <li>
+            <button class="choose-tour__menu-item">Авторские</button>
+          </li>
+          <li class="choose-tour__menu-item">
+            <button class="choose-tour__menu-item">Походы</button>
+          </li>
+          <li class="choose-tour__menu-item">
+            <button class="choose-tour__menu-item">Сплавы</button>
+          </li>
+          <li class="choose-tour__menu-item">
+            <button class="choose-tour__menu-item">Велопрогулки</button>
+          </li>
         </ul>
 
         <ul class="choose-tour__cards">
@@ -157,12 +175,12 @@
         </ul>
       </section>
 
-      <section class="collect-tour">
+      <section id="collect-tour" class="collect-tour">
 
         <h2 class="collect-tour__title">Собери свой тур</h2>
 
         <p class="collect-tour__subtitle">
-          Идейные соображения высшего порядка, а также рамки и место обучения кадров
+          Идейные соображения высшего порядка, а&nbsp;также рамки и место обучения кадров
         </p>
 
         <form class="collect-tour__form">
@@ -259,11 +277,11 @@
 
       </section>
 
-      <section class="review">
+      <section id="review" class="review">
 
         <h2 class="review__title">Отзывы&nbsp;наших путешественников</h2>
 
-        <p class="review__subtitle">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+        <p class="review__subtitle">Идейные соображения высшего порядка, а&nbsp;также рамки и место обучения кадров</p>
 
         <div class="review__cards">
 
@@ -312,7 +330,7 @@
       <section class="gallery">
         <h2 class="gallery__title">Фотографии путешествий</h2>
 
-        <p class="gallery__subtitle">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+        <p class="gallery__subtitle">Идейные соображения высшего порядка, а&nbsp;также рамки и место обучения кадров</p>
 
         <div class="gallery__container">
           <img src="./images/gallery-01-img.png" alt="Взлетающий над побережьем самолёт" class="gallery__item">
@@ -335,9 +353,9 @@
 
       </section>
 
-      <section class="stories">
+      <section id="stories" class="stories">
         <h2 class="stories__title">Истории путешествий</h2>
-        <p class="stories__subtitle">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+        <p class="stories__subtitle">Идейные соображения высшего порядка, а&nbsp;также рамки и место обучения кадров</p>
 
         <div class="stories__cards">
 
@@ -464,15 +482,15 @@
         <ul class="footer__socials">
           <li>
             <div class="footer__socials-icon footer__socials-icon_el_inst"></div>
-            <a href="#" class="footer__socials-link">instagram</a>
+            <a href="#" class="footer__socials-link" target="_blank" rel="noopener noreferrer">instagram</a>
           </li>
           <li>
             <div class="footer__socials-icon footer__socials-icon_el_fb"></div>
-            <a href="#" class="footer__socials-link">facebook</a>
+            <a href="#" class="footer__socials-link" target="_blank" rel="noopener noreferrer">facebook</a>
           </li>
           <li>
             <div class="footer__socials-icon footer__socials-icon_el_vk"></div>
-            <a href="#" class="footer__socials-link">vkontakte</a>
+            <a href="#" class="footer__socials-link" target="_blank" rel="noopener noreferrer">vkontakte</a>
           </li>
         </ul>
 
