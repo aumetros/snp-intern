@@ -1,0 +1,5 @@
+.collect-tour__form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

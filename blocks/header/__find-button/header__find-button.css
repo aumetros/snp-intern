@@ -10,4 +10,15 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.01em;
+  cursor: pointer;
+}
+
+.header__find-button:hover {
+  color:#FFFFFF;
+  background-color: #EFA501;
+}
+
+.header__find-button:active {
+  color: #1B1F2B;
+  background-color: #F8E6BE;
 }

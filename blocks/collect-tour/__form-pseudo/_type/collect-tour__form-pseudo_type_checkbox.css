@@ -1,11 +1,4 @@
-.collect-tour__form-pseudo_type_checkbox {
-  display: inline-block;
-  padding-top: 6px;
-  width: 26px;
-  height: 26px;
-  background-image: url(../../../../images/checkboxbtn-unchecked-img.svg);
-  background-size: 26px 26px;
-  background-position: left;
-  background-repeat: no-repeat;
-  vertical-align: middle;
+.collect-tour__form-pseudo_type_checkbox {  
+  padding-top: 6px;  
+  background-image: url(../../../../images/checkboxbtn-unchecked-img.svg); 
 }

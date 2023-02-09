@@ -1,4 +1,4 @@
-.gallery__container_type_middle {
+.gallery__container-middle {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 301px);

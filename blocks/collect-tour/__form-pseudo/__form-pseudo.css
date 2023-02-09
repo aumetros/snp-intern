@@ -1,0 +1,9 @@
+.collect-tour__form-pseudo {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-size: 26px 26px;
+  background-position: left;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}

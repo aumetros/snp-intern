@@ -1,7 +1,4 @@
 .collect-tour__form-container_size_wide {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
   grid-column-start: 1;
   grid-column-end: 3;
 }
