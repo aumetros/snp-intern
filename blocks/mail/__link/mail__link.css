@@ -9,3 +9,7 @@
 .mail__link:hover {
   text-decoration: underline;
 }
+
+.mail__link:active {
+  color: #286562;
+}

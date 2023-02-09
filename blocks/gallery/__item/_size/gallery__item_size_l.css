@@ -1,0 +1,9 @@
+@media screen and (max-width: 1280px) {
+  .gallery__item_size_l:nth-of-type(2) {
+  display: none;
+  }
+
+  .gallery__item_size_l:nth-of-type(8) {
+    display: none;
+  }
+}

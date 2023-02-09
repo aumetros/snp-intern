@@ -4,6 +4,7 @@
   line-height: 28px;
   color: #FFFFFF;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .header__phone-number:hover {

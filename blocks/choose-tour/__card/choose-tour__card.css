@@ -24,3 +24,10 @@
 .choose-tour__card:active .choose-tour__card-forward-button {
   background-color: #EFA501;
 }
+
+@media screen and (max-width: 1280px) {
+  .choose-tour__card {
+    width: 450px;
+    height: 531px;
+  }
+}

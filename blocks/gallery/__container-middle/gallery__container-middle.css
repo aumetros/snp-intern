@@ -1,8 +1,16 @@
 .gallery__container-middle {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 301px);
+  grid-template-rows: 301px;
   gap: 30px;
   grid-column-start: 1;
   grid-column-end: 5;
+}
+
+@media screen and (max-width: 1280px) {
+.gallery__container-middle {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px;
+  column-gap: 20px;
+}
 }
