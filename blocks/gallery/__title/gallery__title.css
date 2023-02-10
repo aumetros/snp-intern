@@ -6,3 +6,11 @@
   line-height: 73px;
   text-align: center;
 }
+
+@media screen and (max-width: 760px) {
+  .gallery__title {
+    max-width: 318px;
+    font-size: 34px;
+    line-height: 38px;
+  }
+}

@@ -15,3 +15,17 @@
     padding: 0 20px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .gallery__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gallery__container {
+    grid-template-rows: repeat(3, 110px);
+  }
+}

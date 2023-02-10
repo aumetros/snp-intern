@@ -12,3 +12,9 @@
     gap: 30px;
   }
 }
+
+@media screen and (max-width: 920px) {
+  .header__menu {
+    display: none;
+  }
+}

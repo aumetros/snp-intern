@@ -3,3 +3,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .gallery__item_size_s:nth-of-type(2) {
+    display: none;
+  }
+}

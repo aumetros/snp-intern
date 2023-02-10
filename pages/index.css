@@ -57,6 +57,7 @@
 @import url(../blocks/collect-tour/__form-fieldset/collect-tour__form-fieldset.css);
 @import url(../blocks/collect-tour/__form-fieldset/_type/collect-tour__form-fieldset_type_inputs.css);
 @import url(../blocks/collect-tour/__form-fieldset/_type/collect-tour__form-fieldset_type_checkboxes.css);
+@import url(../blocks/collect-tour/__form-fieldset/_type/collect-tour__form-fieldset_type_agree.css);
 
 @import url(../blocks/review/review.css);
 @import url(../blocks/review/__title/review__title.css);

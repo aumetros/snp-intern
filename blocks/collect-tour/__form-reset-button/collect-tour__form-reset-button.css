@@ -19,3 +19,12 @@
 .collect-tour__form-reset-button:active {
   background-color: #D9DFDB;
 }
+
+@media screen and (max-width: 780px) {
+  .collect-tour__form-reset-button {
+    min-width: 134px;
+    min-height: 47px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

@@ -6,3 +6,12 @@
   text-align: center;
   margin: 0 auto 30px;
 }
+
+@media screen and (max-width: 760px) {
+  .review__title {
+    max-width: 318px;
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+  }
+}

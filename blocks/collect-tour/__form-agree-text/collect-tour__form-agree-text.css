@@ -1,5 +1,4 @@
 .collect-tour__form-agree-text {
-  margin-left: 14px;
   font-size: 17px;
   font-weight: 400;
   line-height: 24px;
@@ -8,8 +7,9 @@
   color: #A6A6A6;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 780px) {
   .collect-tour__form-agree-text {
-    margin-left: 6px;
+    font-size: 16px;
+    line-height: 23px;
   }
 }

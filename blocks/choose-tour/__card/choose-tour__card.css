@@ -31,3 +31,11 @@
     height: 531px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .choose-tour__card {
+    width: 318px;
+    min-height: 318px;
+    border-radius: 20px;
+  }
+}

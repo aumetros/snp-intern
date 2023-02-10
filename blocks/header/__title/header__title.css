@@ -7,3 +7,18 @@
   letter-spacing: 0.02em;
   text-align: center;
 }
+
+@media screen and (max-width: 760px) {
+  .header__title {
+    max-width: 360px;
+    font-size: 56px;
+    line-height: 58px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .header__title {
+    font-size: 34px;
+    line-height: 38px;
+  }
+}

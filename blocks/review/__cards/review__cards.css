@@ -11,3 +11,9 @@
     gap: 18px;
   }
 }
+
+@media screen and (max-width: 860px) {
+  .review__cards {
+    grid-template-columns: minmax(318px, 1fr);
+  }
+}
