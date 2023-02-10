@@ -1,5 +1,5 @@
 .gallery__container {
-  padding: 0 19px;
+  padding: 0 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 301px);
@@ -12,5 +12,6 @@
     grid-template-rows: repeat(3, 300px);
     column-gap: 20px;
     row-gap: 31px;
+    padding: 0 20px;
   }
 }
