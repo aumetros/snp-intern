@@ -3,3 +3,10 @@
   margin: 0 auto;
   padding: 53px 53px 52px;
 }
+
+@media screen and (max-width: 520px) {
+  .collect-tour {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+}

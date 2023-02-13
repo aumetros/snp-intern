@@ -16,8 +16,9 @@
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 520px) {
   .header__title {
+    margin-top: 51px;
     font-size: 34px;
     line-height: 38px;
   }

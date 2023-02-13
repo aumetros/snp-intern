@@ -3,3 +3,9 @@
   margin: 0 auto;
   padding: 83px 53px 135px;
 }
+
+@media screen and (max-width: 520px) {
+  .review {
+    padding: 23px 21px 75px;
+  }
+}

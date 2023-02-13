@@ -28,7 +28,7 @@
 @media screen and (max-width: 1280px) {
   .choose-tour__card {
     width: 450px;
-    height: 531px;
+    min-height: 531px;
   }
 }
 
@@ -37,5 +37,6 @@
     width: 318px;
     min-height: 318px;
     border-radius: 20px;
+    padding: 25px;
   }
 }

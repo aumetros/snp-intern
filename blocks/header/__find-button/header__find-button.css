@@ -22,3 +22,12 @@
   color: #1B1F2B;
   background-color: #F8E6BE;
 }
+
+@media screen and (max-width: 520px) {
+  .header__find-button {
+    min-width: 114px;
+    min-height: 33px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

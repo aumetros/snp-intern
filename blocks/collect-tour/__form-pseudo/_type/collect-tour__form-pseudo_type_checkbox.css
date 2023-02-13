@@ -9,3 +9,10 @@
     margin-right: 11px;
   }
 }
+
+@media screen and (max-width: 760px) {
+  .collect-tour__form-pseudo_type_checkbox {
+    margin-right: 10px;
+    transform: translateY(-4px);
+  }
+}

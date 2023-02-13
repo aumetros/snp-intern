@@ -8,3 +8,11 @@
 .review__card-text:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 760px) {
+  .review__card-text {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 23px;
+  }
+}

@@ -1,3 +1,9 @@
 .collect-tour__form-fieldset_type_checkboxes {
   padding-top: 34px;
 }
+
+@media screen and (max-width: 760px) {
+  .collect-tour__form-fieldset_type_checkboxes {
+    padding-top: 30px;
+  }
+}

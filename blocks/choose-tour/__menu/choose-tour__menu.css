@@ -8,3 +8,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media screen and (max-width: 520px) {
+  .choose-tour__menu {
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+}

@@ -12,5 +12,7 @@
     max-width: 318px;
     font-size: 34px;
     line-height: 38px;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
   }
 }

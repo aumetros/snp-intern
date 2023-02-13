@@ -3,3 +3,9 @@
   padding: 29px 57px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 520px) {
+  .header__navbar {
+    padding: 33px 20px;
+  }
+}

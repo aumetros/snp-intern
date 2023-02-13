@@ -34,3 +34,12 @@
 .collect-tour__form-input:focus {
   outline: 1px solid #A6A6A6;
 }
+
+@media screen and (max-width: 760px) {
+  .collect-tour__form-input {
+    height: 43px;
+    padding: 10px 10px 10px 9px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

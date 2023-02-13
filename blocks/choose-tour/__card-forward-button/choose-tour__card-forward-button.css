@@ -1,6 +1,6 @@
 .choose-tour__card-forward-button {
   z-index: 2;
-  width: 199px;
+  min-width: 199px;
   min-height: 42px;
   padding: 7px 20px;
   border: 0;
@@ -14,9 +14,20 @@
   font-size: 23px;
   font-weight: 700;
   line-height: 28px;
-  transform: translateX(-20px);
+  padding: 0;
+  /* transform: translateX(-20px); */
   cursor: pointer;
 }
 
 /** Реализовал расположение кнопки без position absolute для предупреждение наложения текста карточки 
 на текст кнопки при переполнении контейнера**/
+
+@media screen and (max-width: 1023px) {
+  .choose-tour__card-forward-button {
+    min-width: 123px;
+    min-height: 26px;
+    font-size: 16px;
+    line-height: 23px;
+    
+  }
+}

@@ -9,3 +9,10 @@
     padding-top: 136px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .stories {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+}

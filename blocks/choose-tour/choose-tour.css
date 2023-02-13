@@ -13,3 +13,9 @@
     padding-right: 53px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .choose-tour {
+    padding: 75px 21px 22px;
+  }
+}

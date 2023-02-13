@@ -70,13 +70,17 @@
 @import url(../blocks/review/__card-profile-tour/review__card-profile-tour.css);
 @import url(../blocks/review/__card-profile-foto/review__card-profile-foto.css);
 
+@import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
 @import url(../blocks/gallery/__subtitle/gallery__subtitle.css);
 @import url(../blocks/gallery/__container/gallery__container.css);
-@import url(../blocks/gallery/__container-middle/gallery__container-middle.css);
+@import url(../blocks/gallery/__container/_row/gallery__container_row_first.css);
+@import url(../blocks/gallery/__container/_row/gallery__container_row_second.css);
+@import url(../blocks/gallery/__container/_row/gallery__container_row_third.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
-@import url(../blocks/gallery/__item/_size/gallery__item_size_l.css);
-@import url(../blocks/gallery/__item/_size/gallery__item_size_s.css);
+@import url(../blocks/gallery/__item/_row/gallery__item_row_first.css);
+@import url(../blocks/gallery/__item/_row/gallery__item_row_second.css);
+@import url(../blocks/gallery/__item/_row/gallery__item_row_third.css);
 
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/stories/__title/stories__title.css);

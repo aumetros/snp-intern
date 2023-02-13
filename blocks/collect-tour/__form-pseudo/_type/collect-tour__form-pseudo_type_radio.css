@@ -2,3 +2,10 @@
   padding-right: 11px;
   background-image: url(../../../../images/radiobtn-unchecked-img.svg);  
 }
+
+@media screen and (max-width: 760px) {
+  .collect-tour__form-pseudo_type_radio {
+    padding-top: 2px;
+    padding-right: 10px;
+  }
+}

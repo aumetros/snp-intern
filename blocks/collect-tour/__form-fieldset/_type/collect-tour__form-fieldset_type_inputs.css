@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 820px) {
   .collect-tour__form-fieldset_type_inputs {
-    grid-template-columns: minmax(287px, 1fr);
+    grid-template-columns: minmax(278px, 1fr);
     row-gap: 30px;
   }
 }
