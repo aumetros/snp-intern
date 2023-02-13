@@ -1,3 +1,5 @@
 .collect-tour__form-fieldset_type_agree {
   display: flex;
+  align-items: center;
+  margin-bottom: 28px;
 }

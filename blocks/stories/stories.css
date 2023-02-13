@@ -3,3 +3,9 @@
   padding: 135px 53px;
   margin: 0 auto;  
 }
+
+@media screen and (max-width:1024px) {
+  .stories {
+    padding-top: 136px;
+  }
+}

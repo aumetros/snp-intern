@@ -1,5 +1,11 @@
 .collect-tour__form-pseudo_type_checkbox {  
-  padding-top: 6px;  
+  padding-top: 8px;  
   background-image: url(../../../../images/checkboxbtn-unchecked-img.svg);
-  margin-right: 8px;
+  margin-right: 19px;
+}
+
+@media screen and (max-width: 1024px) {
+  .collect-tour__form-pseudo_type_checkbox {
+    margin-right: 11px;
+  }
 }
