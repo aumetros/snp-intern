@@ -7,7 +7,7 @@
 @media screen and (max-width: 1280px) {
   .gallery__container_row_first {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px;
+    grid-template-rows: 301px;
     column-gap: 20px;
   }
 }

@@ -4,12 +4,6 @@
   margin: 0 auto;  
 }
 
-@media screen and (max-width:1024px) {
-  .stories {
-    padding-top: 136px;
-  }
-}
-
 @media screen and (max-width: 520px) {
   .stories {
     padding: 75px 21px;
