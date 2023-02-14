@@ -14,3 +14,10 @@
 .footer__socials-link:active {
   color: #EFA501;
 }
+
+@media screen and (max-width: 520px) {
+  .footer__socials-link {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

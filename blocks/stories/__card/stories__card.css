@@ -24,3 +24,11 @@
 .stories__card:hover .stories__card-image {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 760px) {
+  .stories__card {
+    border-radius: 20px;
+    min-height: 455px;
+    padding: 30px 25px 30px 30px;
+  }
+}

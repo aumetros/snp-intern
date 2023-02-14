@@ -4,3 +4,10 @@
   margin: 2px 8px 0 0;
   margin-right: 8px;
 }
+@media screen and (max-width: 520px) {
+  .footer__socials-icon_el_vk {
+    background-size: 15.38px 9.23px;
+    background-position: center center;
+    margin-right: 0px;
+  }
+}
