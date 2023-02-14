@@ -3,3 +3,9 @@
   padding: 30px;
   background-color: #F4F0E9;
 }
+
+@media screen and (max-width: 520px) {
+  .footer {
+    padding: 21px;
+  }
+}

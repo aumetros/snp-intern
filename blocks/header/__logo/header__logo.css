@@ -6,3 +6,10 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 520px) {
+  .header__logo {
+    min-width: 133px;
+    min-height: 22px;
+  }
+}

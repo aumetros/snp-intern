@@ -4,3 +4,14 @@
   line-height: 43px;
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .mail__title {
+    max-width: 291px;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

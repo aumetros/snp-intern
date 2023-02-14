@@ -1,8 +1,0 @@
-.gallery__container_type_middle {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 301px);
-  gap: 30px;
-  grid-column-start: 1;
-  grid-column-end: 5;
-}

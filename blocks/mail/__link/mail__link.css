@@ -9,3 +9,14 @@
 .mail__link:hover {
   text-decoration: underline;
 }
+
+.mail__link:active {
+  color: #286562;
+}
+
+@media screen and (max-width: 640px) {
+  .mail__link {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

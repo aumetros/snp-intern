@@ -5,3 +5,14 @@
   font-weight: 500;
   line-height: 42px;
 }
+
+@media screen and (max-width: 760px) {
+  .stories__card-title {
+    max-width: 263px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    margin-bottom: 20px;
+  }
+}

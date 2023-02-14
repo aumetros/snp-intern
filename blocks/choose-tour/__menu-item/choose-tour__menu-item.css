@@ -12,3 +12,10 @@
   text-decoration: underline;
   text-underline-offset: 10px;
 }
+
+@media screen and (max-width: 760px) {
+  .choose-tour__menu-item {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

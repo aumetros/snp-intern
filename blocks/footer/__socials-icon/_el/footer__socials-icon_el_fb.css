@@ -1,5 +1,14 @@
 .footer__socials-icon_el_fb {
   background-image: url(../../../../images/fb-icon-img.svg);
   background-size: 8px 17px;
-  margin-right: 11px;
+  background-position-x: 15px;
+  margin-right: 8px;
+}
+@media screen and (max-width: 520px) {
+  .footer__socials-icon_el_fb {
+    background-size: 6.15px 13.08px;
+    background-position: center center;
+    background-position-x: 9px;
+    margin-right: 0px;
+  }
 }

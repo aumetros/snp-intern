@@ -5,3 +5,19 @@
   font-weight: 500;
   line-height: 43px;
 }
+
+@media screen and (max-width: 1280px) {
+  .choose-tour__card-title {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .choose-tour__card-title {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    margin-bottom: 13px;
+  }
+}

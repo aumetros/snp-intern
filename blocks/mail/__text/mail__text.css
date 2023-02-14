@@ -4,3 +4,9 @@
   justify-content: center;
   gap: 20px;
 }
+
+@media screen and (max-width: 640px) {
+  .mail__text {
+    max-width: 291px;
+  }
+}

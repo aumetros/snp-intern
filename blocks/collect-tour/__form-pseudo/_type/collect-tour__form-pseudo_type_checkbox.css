@@ -1,11 +1,18 @@
-.collect-tour__form-pseudo_type_checkbox {
-  display: inline-block;
-  padding-top: 6px;
-  width: 26px;
-  height: 26px;
+.collect-tour__form-pseudo_type_checkbox {  
+  padding-top: 8px;  
   background-image: url(../../../../images/checkboxbtn-unchecked-img.svg);
-  background-size: 26px 26px;
-  background-position: left;
-  background-repeat: no-repeat;
-  vertical-align: middle;
+  margin-right: 19px;
+}
+
+@media screen and (max-width: 1024px) {
+  .collect-tour__form-pseudo_type_checkbox {
+    margin-right: 11px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .collect-tour__form-pseudo_type_checkbox {
+    margin-right: 10px;
+    transform: translateY(-4px);
+  }
 }

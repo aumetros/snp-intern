@@ -9,3 +9,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width: 520px) {
+  .header {
+    padding-bottom: 52px;
+  }
+}

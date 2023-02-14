@@ -17,24 +17,26 @@
     <header class="header">
       <div class="header__navbar">
 
-        <div class="header__logo"></div>
+        <div class="header__navbar-container">
+          <div class="header__logo"></div>
 
-        <ul class="header__menu">
-          <li>
-            <a href="#choose-tour" class="header__menu-item">Туры</a>
-          </li>
-          <li>
-            <a href="#collect-tour" class="header__menu-item">Создать тур</a>
-          </li>
-          <li>
-            <a href="#review" class="header__menu-item">Отзывы</a>
-          </li>
-          <li>
-            <a href="#stories" class="header__menu-item">Истории</a>
-          </li>
-        </ul>
+          <ul class="header__menu">
+            <li>
+              <a href="#choose-tour" class="header__menu-item">Туры</a>
+            </li>
+            <li>
+              <a href="#collect-tour" class="header__menu-item">Создать тур</a>
+            </li>
+            <li>
+              <a href="#review" class="header__menu-item">Отзывы</a>
+            </li>
+            <li>
+              <a href="#stories" class="header__menu-item">Истории</a>
+            </li>
+          </ul>
 
-        <a href="tel:+79999999999" class="header__phone-number">+7 999 999 99 99</a>
+          <a href="tel:+79999999999" class="header__phone-number">+7 999 999 99 99</a>
+        </div>
 
       </div>
 
@@ -57,13 +59,13 @@
           <li>
             <button class="choose-tour__menu-item">Авторские</button>
           </li>
-          <li class="choose-tour__menu-item">
+          <li>
             <button class="choose-tour__menu-item">Походы</button>
           </li>
-          <li class="choose-tour__menu-item">
+          <li>
             <button class="choose-tour__menu-item">Сплавы</button>
           </li>
-          <li class="choose-tour__menu-item">
+          <li>
             <button class="choose-tour__menu-item">Велопрогулки</button>
           </li>
         </ul>
@@ -81,7 +83,7 @@
 
             <button class="choose-tour__card-forward-button">
               <span>Подробнее</span>
-              <div class="choose-tour__card-button-arrow"></div>
+              <span class="choose-tour__card-button-arrow"></span>
             </button>
 
             <div class="choose-tour__card-overlay"></div>
@@ -98,7 +100,7 @@
 
             <button class="choose-tour__card-forward-button">
               <span>Подробнее</span>
-              <div class="choose-tour__card-button-arrow"></div>
+              <span class="choose-tour__card-button-arrow"></span>
             </button>
 
             <div class="choose-tour__card-overlay"></div>
@@ -115,7 +117,7 @@
 
             <button class="choose-tour__card-forward-button">
               <span>Подробнее</span>
-              <div class="choose-tour__card-button-arrow"></div>
+              <span class="choose-tour__card-button-arrow"></span>
             </button>
 
             <div class="choose-tour__card-overlay"></div>
@@ -132,7 +134,7 @@
 
             <button class="choose-tour__card-forward-button">
               <span>Подробнее</span>
-              <div class="choose-tour__card-button-arrow"></div>
+              <span class="choose-tour__card-button-arrow"></span>
             </button>
 
             <div class="choose-tour__card-overlay"></div>
@@ -149,7 +151,7 @@
 
             <button class="choose-tour__card-forward-button">
               <span>Подробнее</span>
-              <div class="choose-tour__card-button-arrow"></div>
+              <span class="choose-tour__card-button-arrow"></span>
             </button>
 
             <div class="choose-tour__card-overlay"></div>
@@ -166,7 +168,7 @@
 
             <button class="choose-tour__card-forward-button">
               <span>Подробнее</span>
-              <div class="choose-tour__card-button-arrow"></div>
+              <span class="choose-tour__card-button-arrow"></span>
             </button>
 
             <div class="choose-tour__card-overlay"></div>
@@ -187,48 +189,48 @@
 
           <fieldset class="collect-tour__form-fieldset collect-tour__form-fieldset_type_inputs">
 
-            <div class="collect-tour__form-container_size_normal">
+            <div class="collect-tour__form-container">
               <label class="collect-tour__form-label" for="name">Имя</label>
               <input class="collect-tour__form-input collect-tour__form-input-name" id="name" name="name" type="text"
                 placeholder="Введите Ваше имя" required>
             </div>
 
-            <div class="collect-tour__form-container_size_normal">
+            <div class="collect-tour__form-container">
               <label class="collect-tour__form-label" for="direction">Направление</label>
               <select class="collect-tour__form-select  collect-tour__form-select-direction" id="direction"
                 name="direction" required>
-                <option disabled selected hidden>Куда хотите ехать</option>
+                <option disabled selected hidden value="">Куда хотите ехать</option>
                 <option value="Санкт-Петербург">Санкт-Петербург</option>
                 <option value="Лондон">Лондон</option>
                 <option value="Ямайка">Ямайка</option>
               </select>
             </div>
 
-            <div class="collect-tour__form-container_size_normal">
+            <div class="collect-tour__form-container">
               <label class="collect-tour__form-label" for="email">Email</label>
               <input class="collect-tour__form-input collect-tour__form-email" id="email" name="email" type="email"
                 placeholder="example@mail.com" required>
             </div>
 
-            <div class="collect-tour__form-container_size_normal">
+            <div class="collect-tour__form-container">
               <label class="collect-tour__form-label" for="phone">Телефон</label>
               <input class="collect-tour__form-input collect-tour__form-phone" id="phone" name="phone" type="tel"
                 placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
             </div>
 
-            <div class="collect-tour__form-container_size_normal">
+            <div class="collect-tour__form-container">
               <label class="collect-tour__form-label" for="date-from">Дата от</label>
               <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-from"
                 id="date-from" name="date-from" type="date" required>
             </div>
 
-            <div class="collect-tour__form-container_size_normal">
+            <div class="collect-tour__form-container">
               <label class="collect-tour__form-label" for="date-to">Дата до</label>
               <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-to" id="date-to"
                 name="date-to" type="date" required>
             </div>
 
-            <div class="collect-tour__form-container_size_wide">
+            <div class="collect-tour__form-container collect-tour__form-container_size_wide">
               <label class="collect-tour__form-label" for="comment">Комментарий</label>
               <textarea class="collect-tour__form-comment" id="comment" name="comment"></textarea>
             </div>
@@ -242,36 +244,34 @@
             <div class="collect-tour__form-radios">
               <label class="collect-tour__form-label collect-tour__form-label_el_radio" for="yes">
                 <input class="collect-tour__form-radio" type="radio" name="adult" id="yes" value="yes">
-                <span class="collect-tour__form-pseudo_type_radio"></span>
+                <span class="collect-tour__form-pseudo collect-tour__form-pseudo_type_radio"></span>
                 <span>Да</span>
               </label>
 
               <label class="collect-tour__form-label collect-tour__form-label_el_radio" for="no">
                 <input class="collect-tour__form-radio" type="radio" name="adult" id="no" value="no">
-                <span class="collect-tour__form-pseudo_type_radio"></span>
+                <span class="collect-tour__form-pseudo collect-tour__form-pseudo_type_radio"></span>
                 <span>Нет</span>
               </label>
             </div>
-
-            <div>
-              <label class="collect-tour__form-label">
-                <input class="collect-tour__form-checkbox" type="checkbox" name="agree" value="agree" required>
-                <span class="collect-tour__form-pseudo_type_checkbox"></span>
-              </label>
-
-              <span class="collect-tour__form-agree-text">Нажимая кнопку, я принимаю условия </span><a
-                class="collect-tour__form-agree-link" href="#" target="_blank">Лицензионного договора</a>
-            </div>
-
           </fieldset>
 
-          <div class="collect-tour__form-container_size_wide">
-
+          <fieldset class="collect-tour__form-fieldset collect-tour__form-fieldset_type_agree">
+            <label class="collect-tour__form-label">
+              <input class="collect-tour__form-checkbox" type="checkbox" name="agree" value="agree" required>
+              <span class="collect-tour__form-pseudo collect-tour__form-pseudo_type_checkbox"></span>
+            </label>
             <div>
-              <button class="collect-tour__form-submit-button" type="submit">Найти тур</button>
-              <button class="collect-tour__form-reset-button" type="reset">Сбросить</button>
+              <span class="collect-tour__form-agree-text">Нажимая кнопку, я принимаю условия</span><a
+                class="collect-tour__form-agree-link" href="#" target="_blank">Лицензионного договора</a>
             </div>
+          </fieldset>
 
+
+
+          <div>
+            <button class="collect-tour__form-submit-button" type="submit">Найти тур</button>
+            <button class="collect-tour__form-reset-button" type="reset">Сбросить</button>
           </div>
 
         </form>
@@ -333,27 +333,39 @@
 
         <p class="gallery__subtitle">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
 
-        <div class="gallery__container">
-          <img src="./images/gallery-01-img.png" alt="Взлетающий над побережьем самолёт" class="gallery__item">
+        <div class="gallery__container gallery__container_row_first">
+          <img src="./images/gallery-01-img.png" alt="Взлетающий над побережьем самолёт"
+            class="gallery__item gallery__item_row_first">
           <img src="./images/gallery-02-img.png" alt="Вид каравана машин в пустыне через дверь палатки"
-            class="gallery__item">
-          <img src="./images/gallery-03-img.png" alt="Путешественник на фоне горного заката" class="gallery__item">
+            class="gallery__item gallery__item_row_first">
+          <img src="./images/gallery-03-img.png" alt="Путешественник на фоне горного заката"
+            class="gallery__item gallery__item_row_first">
           <img src="./images/gallery-04-img.png" alt="Уходящая в туманную даль асфальтовая дорога"
-            class="gallery__item">
+            class="gallery__item gallery__item_row_first">
+        </div>
 
-          <div class="gallery__container_type_middle">
-            <img src="./images/gallery-05-img.png" alt="Два человека у крутого обрыва к морю" class="gallery__item">
-            <img src="./images/gallery-06-img.png" alt="Рука, указывающая место на карте" class="gallery__item">
-            <img src="./images/gallery-07-img.png" alt="Мост через обрыв в густых джунглях" class="gallery__item">
-            <img src="./images/gallery-08-img.png" alt="Человек в палатке на крыше автомобиля" class="gallery__item">
-            <img src="./images/gallery-09-img.png" alt="Узкая улица старого города" class="gallery__item">
-          </div>
+        <div class="gallery__container gallery__container_row_second">
+          <img src="./images/gallery-05-img.png" alt="Два человека у крутого обрыва к морю"
+            class="gallery__item gallery__item_row_second">
+          <img src="./images/gallery-06-img.png" alt="Рука, указывающая место на карте"
+            class="gallery__item gallery__item_row_second">
+          <img src="./images/gallery-07-img.png" alt="Мост через обрыв в густых джунглях"
+            class="gallery__item gallery__item_row_second">
+          <img src="./images/gallery-08-img.png" alt="Человек в палатке на крыше автомобиля"
+            class="gallery__item gallery__item_row_second">
+          <img src="./images/gallery-09-img.png" alt="Узкая улица старого города"
+            class="gallery__item gallery__item_row_second">
+        </div>
 
-          <img src="./images/gallery-10-img.png" alt="Вечерняя улица небольшого города" class="gallery__item">
-          <img src="./images/gallery-11-img.png" alt="Человек на берегу пирса кристального озера" class="gallery__item">
-          <img src="./images/gallery-12-img.png" alt="Люди на улице старого города" class="gallery__item">
+        <div class="gallery__container gallery__container_row_third">
+          <img src="./images/gallery-10-img.png" alt="Вечерняя улица небольшого города"
+            class="gallery__item gallery__item_row_third">
+          <img src="./images/gallery-11-img.png" alt="Человек на берегу пирса кристального озера"
+            class="gallery__item gallery__item_row_third">
+          <img src="./images/gallery-12-img.png" alt="Люди на улице старого города"
+            class="gallery__item gallery__item_row_third">
           <img src="./images/gallery-13-img.png" alt="Девушка в купальнике, плывущая на сапе по озеру"
-            class="gallery__item">
+            class="gallery__item gallery__item_row_third">
         </div>
       </section>
 
@@ -365,7 +377,7 @@
 
           <div class="stories__card">
             <div class="stories__card-text">
-              <h3 class="stories__card-title">Автостопом в Стамбул</h3>
+              <h3 class="stories__card-title">Автостопом в&nbsp;Стамбул</h3>
               <p class="stories__card-description">
                 Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу
                 (специалистов) участие в формировании новых предложений:
@@ -380,7 +392,7 @@
             <div class="stories__card-footer">
               <button class="stories__card-forward-button">
                 <span>Подробнее</span>
-                <div class="stories__card-arrow-button"></div>
+                <span class="stories__card-arrow-button"></span>
               </button>
 
               <ul class="stories__card-links">
@@ -398,12 +410,13 @@
 
             <div class="stories__card-overlay"></div>
 
-            <img class="stories__card-image" src="./images/stories-card-01-img.png">
+            <img class="stories__card-image" src="./images/stories-card-01-img.png"
+              alt="Девушка, сидящая на берегу моря у красной палатки">
           </div>
 
           <div class="stories__card">
             <div class="stories__card-text">
-              <h3 class="stories__card-title">Автостопом в Стамбул</h3>
+              <h3 class="stories__card-title">Автостопом в&nbsp;Стамбул</h3>
               <p class="stories__card-description">
                 Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу
                 (специалистов) участие в формировании новых предложений. </p>
@@ -412,7 +425,7 @@
             <div class="stories__card-footer">
               <button class="stories__card-forward-button">
                 <span>Подробнее</span>
-                <div class="stories__card-arrow-button"></div>
+                <span class="stories__card-arrow-button"></span>
               </button>
 
               <ul class="stories__card-links">
@@ -427,12 +440,13 @@
 
             <div class="stories__card-overlay"></div>
 
-            <img class="stories__card-image" src="./images/stories-card-02-img.png">
+            <img class="stories__card-image" src="./images/stories-card-02-img.png"
+              alt="Компания туристов, сидящая ночью у лесного костра">
           </div>
 
           <div class="stories__card">
             <div class="stories__card-text">
-              <h3 class="stories__card-title">Автостопом в Стамбул</h3>
+              <h3 class="stories__card-title">Автостопом в&nbsp;Стамбул</h3>
               <p class="stories__card-description">
                 Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу
                 (специалистов) участие в формировании новых предложений.</p>
@@ -441,7 +455,7 @@
             <div class="stories__card-footer">
               <button class="stories__card-forward-button">
                 <span>Подробнее</span>
-                <div class="stories__card-arrow-button"></div>
+                <span class="stories__card-arrow-button"></span>
               </button>
 
               <ul class="stories__card-links">
@@ -459,18 +473,19 @@
 
             <div class="stories__card-overlay"></div>
 
-            <img class="stories__card-image" src="./images/stories-card-03-img.png">
+            <img class="stories__card-image" src="./images/stories-card-03-img.png"
+              alt="Вечернее побережье южного моря">
           </div>
         </div>
       </section>
 
       <section class="mail">
-        <img class="mail__foto" src="./images/mail-img.png">
+        <img class="mail__foto" src="./images/mail-img.png" alt="Деревенские дома на живописном лугу у горного озера">
         <div class="mail__text">
           <h3 class="mail__title">Пора в путешествие вместе с нами!</h3>
           <div>
-            <span class="mail__subtitle">Напиши на почту и узнай подробности на </span><a
-              href="mailto:yourtour@gmail.com" class="mail__link">yourtour@gmail.com</a>
+            <span class="mail__subtitle">Напиши на почту и узнай подробности на <a href="mailto:yourtour@gmail.com"
+                class="mail__link">yourtour@gmail.com</a></span>
           </div>
         </div>
       </section>
@@ -481,7 +496,7 @@
 
       <div class="footer__container">
 
-        <span class="footer__text">Наши социальные сети</span>
+        <h2 class="footer__title">Наши социальные сети</h2>
 
         <ul class="footer__socials">
           <li>

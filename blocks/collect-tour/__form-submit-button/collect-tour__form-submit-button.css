@@ -20,3 +20,14 @@
 .collect-tour__form-submit-button:active {
   background-color: #627F7E;
 }
+
+@media screen and (max-width: 780px) {
+  .collect-tour__form-submit-button {
+    min-width: 134px;
+    min-height: 47px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-right: 5px;
+    padding: 12px 29.5px;
+  }
+}

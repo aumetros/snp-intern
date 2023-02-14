@@ -1,8 +1,11 @@
 .header__navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 182px;
-  padding: 29px 0;
+  width: 100%;
+  padding: 29px 57px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 520px) {
+  .header__navbar {
+    padding: 33px 20px;
+  }
 }

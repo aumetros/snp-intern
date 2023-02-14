@@ -1,7 +1,3 @@
 .gallery__container {
-  padding: 0 19px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 301px);
-  gap: 30px;
 }

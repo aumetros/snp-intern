@@ -1,8 +1,14 @@
 .footer__socials {
   display: flex;
-  gap: 22px;
+  gap: 24px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   align-items: center;
+}
+
+@media screen and (max-width: 520px) {
+  .footer__socials {
+    gap: 16px;
+  }
 }

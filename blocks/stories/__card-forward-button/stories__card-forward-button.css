@@ -16,3 +16,12 @@
   transform: translate(-20px, 7px);
   cursor: pointer;
 }
+
+@media screen and (max-width: 760px) {
+  .stories__card-forward-button {
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 9px;
+    gap: 17px;
+  }
+}
