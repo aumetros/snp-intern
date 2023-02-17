@@ -13,6 +13,7 @@
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 769px) {  
 .stories__card:hover .stories__card-forward-button {
   background-color: #286562;
 }
@@ -23,6 +24,7 @@
 
 .stories__card:hover .stories__card-image {
   transform: scale(1.2);
+}
 }
 
 @media screen and (max-width: 760px) {
