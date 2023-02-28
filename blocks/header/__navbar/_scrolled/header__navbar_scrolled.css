@@ -1,4 +1,8 @@
 .header__navbar_scrolled {
   background-color: rgba(243, 239, 232, 0.6);
   backdrop-filter: blur(27px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
 }

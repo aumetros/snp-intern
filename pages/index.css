@@ -7,6 +7,7 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/_scrolled/header_scrolled.css);
 @import url(../blocks/header/__navbar/header__navbar.css);
 @import url(../blocks/header/__navbar/_scrolled/header__navbar_scrolled.css);
 @import url(../blocks/header/__navbar-container/header__navbar-container.css);

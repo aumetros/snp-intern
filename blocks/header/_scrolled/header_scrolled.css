@@ -1,0 +1,9 @@
+.header_scrolled {
+  padding-top: 88px;
+}
+
+@media screen and (max-width: 520px) {
+  .header_scrolled {
+    padding-top: 89px;
+  }
+}

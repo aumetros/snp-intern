@@ -1,11 +1,14 @@
-const navBar = document.querySelector(".header__navbar");
+const header = document.querySelector('.header');
+const navBar = header.querySelector('.header__navbar');
 
 function blurNavBar() {
   const scrollPosition = window.scrollY;
-  if (scrollPosition > 50) {
-    navBar.classList.add("header__navbar_scrolled");
+  if (scrollPosition > 450) {
+    header.classList.add('header_scrolled');
+    navBar.classList.add('header__navbar_scrolled');
   } else {
-    navBar.classList.remove("header__navbar_scrolled");
+    header.classList.remove('header_scrolled');
+    navBar.classList.remove('header__navbar_scrolled');
   }
 }
 
