@@ -1,7 +1,11 @@
 .header__navbar {
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   padding: 29px 57px;
   box-sizing: border-box;
+  z-index: 3;
 }
 
 @media screen and (max-width: 520px) {
