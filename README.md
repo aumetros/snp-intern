@@ -16,6 +16,7 @@
 * Flexbox верстка и Grid Layout.
 * Верстка в концепции PixelPerfect.
 * Адаптивная верстка под десктоп и мобильные разрешения экранов.
+* Навигация при скролле страницы с помощью Java Script.
 
 
 **Ссылка на проект - GitHub Pages**: (https://aumetros.github.io/snp-intern/)
