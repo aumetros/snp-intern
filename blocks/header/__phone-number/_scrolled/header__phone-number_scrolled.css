@@ -1,0 +1,10 @@
+.header__phone-number_scrolled {
+  color: #1B1F2B;
+}
+
+@media screen and (max-width: 520px) {
+  .header__phone-number_scrolled {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
