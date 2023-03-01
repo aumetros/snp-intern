@@ -77,8 +77,7 @@
             <div class="tours-card__overlay"></div>
           </li>
           <li class="tours-card">
-            <img class="tours-card__foto" src="./images/card-tour-photo-2.jpg"
-              alt="Девушка, сидящая посреди барханов">
+            <img class="tours-card__foto" src="./images/card-tour-photo-2.jpg" alt="Девушка, сидящая посреди барханов">
             <div class="tours-card__text-container">
               <h3 class="tours-card__title">Путешествие в&nbsp;горы</h3>
               <p class="tours-card__subtitle">от 80 000 руб</p>
@@ -103,8 +102,7 @@
             <div class="tours-card__overlay"></div>
           </li>
           <li class="tours-card">
-            <img class="tours-card__foto" src="./images/card-tour-photo-4.jpg"
-              alt="Тесная улочка старинного города">
+            <img class="tours-card__foto" src="./images/card-tour-photo-4.jpg" alt="Тесная улочка старинного города">
             <div class="tours-card__text-container">
               <h3 class="tours-card__title">Путешествие в&nbsp;горы</h3>
               <p class="tours-card__subtitle">от 80 000 руб</p>
@@ -148,76 +146,73 @@
         <p class="collect-tour__subtitle">
           Идейные соображения высшего порядка, а&nbsp;также рамки и место обучения кадров
         </p>
-        <form class="collect-tour__form">
-          <fieldset class="collect-tour__form-fieldset collect-tour__form-fieldset_type_inputs">
-            <div class="collect-tour__form-container">
-              <label class="collect-tour__form-label" for="name">Имя</label>
-              <input class="collect-tour__form-input collect-tour__form-input-name" id="name" name="name" type="text"
-                placeholder="Введите Ваше имя" required>
+        <form class="tours-form">
+          <fieldset class="tours-form__fieldset tours-form__fieldset_type_inputs">
+            <div class="tours-form__container">
+              <label class="tours-form__label" for="name">Имя</label>
+              <input class="tours-form__input" id="name" name="name" type="text" placeholder="Введите Ваше имя"
+                required>
             </div>
-            <div class="collect-tour__form-container">
-              <label class="collect-tour__form-label" for="direction">Направление</label>
-              <select class="collect-tour__form-select  collect-tour__form-select-direction" id="direction"
-                name="direction" required>
+            <div class="tours-form__container">
+              <label class="tours-form__label" for="direction">Направление</label>
+              <select class="tours-form__select" id="direction" name="direction" required>
                 <option value="" disabled selected hidden>Куда хотите ехать</option>
                 <option value="Санкт-Петербург">Санкт-Петербург</option>
                 <option value="Лондон">Лондон</option>
                 <option value="Ямайка">Ямайка</option>
               </select>
             </div>
-            <div class="collect-tour__form-container">
-              <label class="collect-tour__form-label" for="email">Email</label>
-              <input class="collect-tour__form-input collect-tour__form-email" id="email" name="email" type="email"
-                placeholder="example@mail.com" required>
+            <div class="tours-form__container">
+              <label class="tours-form__label" for="email">Email</label>
+              <input class="tours-form__input" id="email" name="email" type="email" placeholder="example@mail.com"
+                required>
             </div>
-            <div class="collect-tour__form-container">
-              <label class="collect-tour__form-label" for="phone">Телефон</label>
-              <input class="collect-tour__form-input collect-tour__form-phone" id="phone" name="phone" type="tel"
+            <div class="tours-form__container">
+              <label class="tours-form__label" for="phone">Телефон</label>
+              <input class="tours-form__input" id="phone" name="phone" type="tel"
                 placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
             </div>
-            <div class="collect-tour__form-container">
-              <label class="collect-tour__form-label" for="date-from">Дата от</label>
-              <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-from"
-                id="date-from" name="date-from" type="date" required>
+            <div class="tours-form__container">
+              <label class="tours-form__label" for="date-from">Дата от</label>
+              <input class="tours-form__input tours-form__date" id="date-from" name="date-from" type="date" required>
             </div>
-            <div class="collect-tour__form-container">
-              <label class="collect-tour__form-label" for="date-to">Дата до</label>
-              <input class="collect-tour__form-input collect-tour__form-date collect-tour__form-date-to" id="date-to"
-                name="date-to" type="date" required>
+            <div class="tours-form__container">
+              <label class="tours-form__label" for="date-to">Дата до</label>
+              <input class="tours-form__input tours-form__date" id="date-to" name="date-to" type="date" required>
             </div>
-            <div class="collect-tour__form-container collect-tour__form-container_size_wide">
-              <label class="collect-tour__form-label" for="comment">Комментарий</label>
-              <textarea class="collect-tour__form-comment" id="comment" name="comment"></textarea>
+            <div class="tours-form__container tours-form__container_size_wide">
+              <label class="tours-form__label" for="comment">Комментарий</label>
+              <textarea class="tours-form__comment" id="comment" name="comment"></textarea>
             </div>
           </fieldset>
-          <fieldset class="collect-tour__form-fieldset collect-tour__form-fieldset_type_checkboxes">
-            <span class="collect-tour__form-label">Вам есть 18 лет?</span>
-            <div class="collect-tour__form-radios">
-              <label class="collect-tour__form-label collect-tour__form-label_el_radio" for="yes">
-                <input class="collect-tour__form-radio" type="radio" name="adult" id="yes" value="yes">
-                <span class="collect-tour__form-pseudo collect-tour__form-pseudo_type_radio"></span>
+          <fieldset class="tours-form__fieldset tours-form__fieldset_type_checkboxes">
+            <span class="tours-form__label">Вам есть 18 лет?</span>
+            <div class="tours-form__radios">
+              <label class="tours-form__label tours-form__label_el_radio" for="yes">
+                <input class="tours-form__radio" type="radio" name="adult" id="yes" value="yes">
+                <span class="tours-form__pseudo tours-form__pseudo_type_radio"></span>
                 <span>Да</span>
               </label>
-              <label class="collect-tour__form-label collect-tour__form-label_el_radio" for="no">
-                <input class="collect-tour__form-radio" type="radio" name="adult" id="no" value="no">
-                <span class="collect-tour__form-pseudo collect-tour__form-pseudo_type_radio"></span>
+              <label class="tours-form__label tours-form__label_el_radio" for="no">
+                <input class="tours-form__radio" type="radio" name="adult" id="no" value="no">
+                <span class="tours-form__pseudo tours-form__pseudo_type_radio"></span>
                 <span>Нет</span>
               </label>
             </div>
           </fieldset>
-          <fieldset class="collect-tour__form-fieldset collect-tour__form-fieldset_type_agree">
-            <label class="collect-tour__form-label">
-              <input class="collect-tour__form-checkbox" type="checkbox" name="agree" value="agree" required>
-              <span class="collect-tour__form-pseudo collect-tour__form-pseudo_type_checkbox"></span>
+          <fieldset class="tours-form__fieldset tours-form__fieldset_type_agree">
+            <label class="tours-form__label">
+              <input class="tours-form__checkbox" type="checkbox" name="agree" value="agree" required>
+              <span class="tours-form__pseudo tours-form__pseudo_type_checkbox"></span>
             </label>
             <div>
-              <span class="collect-tour__form-agree-text">Нажимая кнопку, я принимаю условия</span><a
-                class="collect-tour__form-agree-link" href="#" target="_blank">Лицензионного договора</a>
+              <span class="tours-form__agree-text">Нажимая кнопку, я принимаю условия</span><a
+                class="tours-form__agree-link" href="#" target="_blank">Лицензионного договора</a>
             </div>
           </fieldset>
           <div>
-            <button class="collect-tour__form-submit-button" type="submit">Найти тур</button>
-            <button class="collect-tour__form-reset-button" type="reset">Сбросить</button>
+            <button class="tours-form__submit-button" type="submit">Найти тур</button>
+            <button class="tours-form__reset-button" type="reset">Сбросить</button>
           </div>
         </form>
       </section>

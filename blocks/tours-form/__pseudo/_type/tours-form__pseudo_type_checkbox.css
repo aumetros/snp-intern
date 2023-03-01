@@ -1,0 +1,18 @@
+.tours-form__pseudo_type_checkbox {
+  padding-top: 8px;  
+  background-image: url(../../../../images/checkboxbtn-unchecked-img.svg);
+  margin-right: 19px;
+}
+
+@media screen and (max-width: 1024px) {
+  .tours-form__pseudo_type_checkbox {
+    margin-right: 11px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .tours-form__pseudo_type_checkbox {
+    margin-right: 10px;
+    transform: translateY(-4px);
+  }
+}

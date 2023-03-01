@@ -1,0 +1,11 @@
+.tours-form__pseudo_type_radio {
+  padding-right: 11px;
+  background-image: url(../../../../images/radiobtn-unchecked-img.svg);  
+}
+
+@media screen and (max-width: 760px) {
+  .tours-form__pseudo_type_radio {
+    padding-top: 2px;
+    padding-right: 10px;
+  }
+}
