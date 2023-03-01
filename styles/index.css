@@ -24,9 +24,12 @@
 
 @import url(../blocks/choose-tour/choose-tour.css);
 @import url(../blocks/choose-tour/__title/choose-tour__title.css);
-@import url(../blocks/choose-tour/__menu/choose-tour__menu.css);
-@import url(../blocks/choose-tour/__menu-item/choose-tour__menu-item.css);
-@import url(../blocks/choose-tour/__menu-item/_active/choose-tour__menu-item_active.css);
+/* @import url(../blocks/choose-tour/__menu/choose-tour__menu.css); */
+@import url(../blocks/tours-types/tours-types.css);
+/* @import url(../blocks/choose-tour/__menu-item/choose-tour__menu-item.css); */
+@import url(../blocks/tours-types/__type/tours-types__type.css);
+/* @import url(../blocks/choose-tour/__menu-item/_active/choose-tour__menu-item_active.css); */
+@import url(../blocks/tours-types/__type/_active/tours-types__type_active.css);
 @import url(../blocks/choose-tour/__cards/choose-tour__cards.css);
 @import url(../blocks/choose-tour/__card/choose-tour__card.css);
 @import url(../blocks/choose-tour/__card-foto/choose-tour__card-foto.css);
