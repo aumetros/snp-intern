@@ -1,4 +1,4 @@
-.choose-tour__card-subtitle {
+.tour-card__subtitle {
   max-width: 270px;
   margin: 0;
   font-size: 17px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .choose-tour__card-subtitle {
+  .tour-card__subtitle {
     letter-spacing: -0.04em;
   }
 }

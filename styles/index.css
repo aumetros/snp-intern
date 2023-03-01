@@ -24,21 +24,20 @@
 
 @import url(../blocks/choose-tour/choose-tour.css);
 @import url(../blocks/choose-tour/__title/choose-tour__title.css);
-/* @import url(../blocks/choose-tour/__menu/choose-tour__menu.css); */
-@import url(../blocks/tours-types/tours-types.css);
-/* @import url(../blocks/choose-tour/__menu-item/choose-tour__menu-item.css); */
-@import url(../blocks/tours-types/__type/tours-types__type.css);
-/* @import url(../blocks/choose-tour/__menu-item/_active/choose-tour__menu-item_active.css); */
-@import url(../blocks/tours-types/__type/_active/tours-types__type_active.css);
 @import url(../blocks/choose-tour/__cards/choose-tour__cards.css);
-@import url(../blocks/choose-tour/__card/choose-tour__card.css);
-@import url(../blocks/choose-tour/__card-foto/choose-tour__card-foto.css);
-@import url(../blocks/choose-tour/__choose-tour__card-overlay/choose-tour__card-overlay.css);
-@import url(../blocks/choose-tour/__card-text-container/choose-tour__card-text-container.css);
-@import url(../blocks/choose-tour/__card-title/choose-tour__card-title.css);
-@import url(../blocks/choose-tour/__card-subtitle/choose-tour__card-subtitle.css);
-@import url(../blocks/choose-tour/__card-forward-button/choose-tour__card-forward-button.css);
-@import url(../blocks/choose-tour/__card-button-arrow/choose-tour__card-button-arrow.css);
+
+@import url(../blocks/tours-types/tours-types.css);
+@import url(../blocks/tours-types/__type/tours-types__type.css);
+@import url(../blocks/tours-types/__type/_active/tours-types__type_active.css);
+
+@import url(../blocks/tour-card/tour-card.css);
+@import url(../blocks/tour-card/__foto/tour-card__foto.css);
+@import url(../blocks/tour-card/__text-container/tour-card__text-container.css);
+@import url(../blocks/tour-card/__title/tour-card__title.css);
+@import url(../blocks/tour-card/__subtitle/tour-card__subtitle.css);
+@import url(../blocks/tour-card/__forward-button/tour-card__forward-button.css);
+@import url(../blocks/tour-card/__button-arrow/tour-card__button-arrow.css);
+@import url(../blocks/tour-card/__overlay/tour-card__overlay.css);
 
 @import url(../blocks/collect-tour/collect-tour.css);
 @import url(../blocks/collect-tour/__title/collect-tour__title.css);

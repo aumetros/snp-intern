@@ -1,4 +1,4 @@
-.choose-tour__card-forward-button {
+.tour-card__forward-button {
   z-index: 2;
   width: 199px;
   min-height: 42px;
@@ -18,11 +18,8 @@
   cursor: pointer;
 }
 
-/** Реализовал расположение кнопки без position absolute для предупреждение наложения текста карточки 
-на текст кнопки при переполнении контейнера**/
-
 @media screen and (max-width: 1023px) {
-  .choose-tour__card-forward-button {
+  .tour-card__forward-button {
     width: 123px;
     min-height: 26px;
     font-size: 16px;

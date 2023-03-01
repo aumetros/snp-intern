@@ -1,4 +1,4 @@
-.choose-tour__card-title {
+.tour-card__title {
   max-width: 270px;
   margin: 0 0 16px;
   font-size: 35px;
@@ -6,14 +6,15 @@
   line-height: 43px;
 }
 
+
 @media screen and (max-width: 1280px) {
-  .choose-tour__card-title {
+  .tour-card__title {
     max-width: 350px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .choose-tour__card-title {
+  .tour-card__title {
     font-size: 23px;
     font-weight: 700;
     line-height: 28px;
