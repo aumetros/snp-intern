@@ -1,4 +1,4 @@
-.tour-card {
+.tours-card {
   width: 370px;
   min-height: 531px;
   border-radius: 50px;
@@ -14,28 +14,28 @@
 }
 
 @media screen and (min-width: 1024px) {  
-.tour-card:hover .tour-card__foto {
+.tours-card:hover .tours-card__foto {
   transform: scale(1.2);
 }
 
-.tour-card:hover .tour-card__forward-button {
+.tours-card:hover .tours-card__forward-button {
   background-color: #286562;
 }
 
-.tour-card:active .tour-card__forward-button {
+.tours-card:active .tours-card__forward-button {
   background-color: #EFA501;
 }
 }
 
 @media screen and (max-width: 1280px) {
-  .tour-card {
+  .tours-card {
     width: 450px;
     min-height: 531px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .tour-card {
+  .tours-card {
     width: 318px;
     min-height: 318px;
     border-radius: 20px;

@@ -1,4 +1,4 @@
-.tour-card__forward-button {
+.tours-card__forward-button {
   z-index: 2;
   width: 199px;
   min-height: 42px;
@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .tour-card__forward-button {
+  .tours-card__forward-button {
     width: 123px;
     min-height: 26px;
     font-size: 16px;
