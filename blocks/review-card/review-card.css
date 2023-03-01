@@ -1,4 +1,4 @@
-.review__card {
+.review-card {
   min-height: 673px;
   padding: 40px;
   box-sizing: border-box;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .review__card {
+  .review-card {
     padding: 20px;
     border-radius: 20px;
     min-height: 408px;

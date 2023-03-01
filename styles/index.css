@@ -71,12 +71,13 @@
 @import url(../blocks/review/__title/review__title.css);
 @import url(../blocks/review/__subtitle/review__subtitle.css);
 @import url(../blocks/review/__cards/review__cards.css);
-@import url(../blocks/review/__card/review__card.css);
-@import url(../blocks/review/__card-text/review__card-text.css);
-@import url(../blocks/review/__card-profile/review__card-profile.css);
-@import url(../blocks/review/__card-profile-name/review__card-profile-name.css);
-@import url(../blocks/review/__card-profile-tour/review__card-profile-tour.css);
-@import url(../blocks/review/__card-profile-foto/review__card-profile-foto.css);
+
+@import url(../blocks/review-card/review-card.css);
+@import url(../blocks/review-card/__text/review-card__text.css);
+@import url(../blocks/review-card/__profile/review-card__profile.css);
+@import url(../blocks/review-card/__profile-name/review-card__profile-name.css);
+@import url(../blocks/review-card/__profile-tour/review-card__profile-tour.css);
+@import url(../blocks/review-card/__profile-foto/review-card__profile-foto.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__title/gallery__title.css);

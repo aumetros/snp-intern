@@ -1,4 +1,4 @@
-.review__card-profile-tour {
+.review-card__profile-tour {
   color: #A6A6A6;
   font-size: 17px;
   font-weight: 400;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .review__card-profile-tour {
+  .review-card__profile-tour {
     font-size: 16px;
     line-height: 23px;
     align-self: end;

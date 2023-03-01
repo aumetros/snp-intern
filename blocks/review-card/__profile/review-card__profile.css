@@ -1,4 +1,4 @@
-.review__card-profile {
+.review-card__profile {
   display: grid;
   grid-template-columns: 1fr 75px;
   grid-template-rows: auto auto;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .review__card-profile {
+  .review-card__profile {
     margin-top: 40px;
   }
 }
