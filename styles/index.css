@@ -82,14 +82,15 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
 @import url(../blocks/gallery/__subtitle/gallery__subtitle.css);
-@import url(../blocks/gallery/__container/gallery__container.css);
-@import url(../blocks/gallery/__container/_row/gallery__container_row_first.css);
-@import url(../blocks/gallery/__container/_row/gallery__container_row_second.css);
-@import url(../blocks/gallery/__container/_row/gallery__container_row_third.css);
-@import url(../blocks/gallery/__item/gallery__item.css);
-@import url(../blocks/gallery/__item/_row/gallery__item_row_first.css);
-@import url(../blocks/gallery/__item/_row/gallery__item_row_second.css);
-@import url(../blocks/gallery/__item/_row/gallery__item_row_third.css);
+
+@import url(../blocks/tours-gallery/__container/tours-gallery__container.css);
+@import url(../blocks/tours-gallery/__container/_row/tours-gallery__container_row_first.css);
+@import url(../blocks/tours-gallery/__container/_row/tours-gallery__container_row_second.css);
+@import url(../blocks/tours-gallery/__container/_row/tours-gallery__container_row_third.css);
+@import url(../blocks/tours-gallery/__item/tours-gallery__item.css);
+@import url(../blocks/tours-gallery/__item/_row/tours-gallery__item_row_first.css);
+@import url(../blocks/tours-gallery/__item/_row/tours-gallery__item_row_second.css);
+@import url(../blocks/tours-gallery/__item/_row/tours-gallery__item_row_third.css);
 
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/stories/__title/stories__title.css);

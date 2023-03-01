@@ -1,4 +1,4 @@
-.gallery__item {
+.tours-gallery__item {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .gallery__item {
+  .tours-gallery__item {
     border-radius: 20px;
   }
 }
