@@ -1,4 +1,4 @@
-.stories__card-list {
+.stories-card__list {
   margin: 28px 0 0;
   padding-left: 12px;
   font-size: 20px;
@@ -7,21 +7,21 @@
   list-style: none;
 }
 
-.stories__card-list li:before {
+.stories-card__list li:before {
   content: "•";
   font-size: 20px;
   padding-right: 11px;
 }
 
 @media screen and (max-width: 760px) {
-  .stories__card-list {
+  .stories-card__list {
     font-size: 16px;
     line-height: 23px;
     margin-top: 23px;
     padding-left: 9px;
   }
 
-  .stories__card-list li:before {
+  .stories-card__list li:before {
     content: "•";
     font-size: 16px;
     padding-right: 10px;

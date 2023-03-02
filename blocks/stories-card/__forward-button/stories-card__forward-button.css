@@ -1,4 +1,4 @@
-.stories__card-forward-button {
+.stories-card__forward-button {
   width: 199px;
   height: 42px;
   padding: 7px 20px;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .stories__card-forward-button {
+  .stories-card__forward-button {
     font-size: 16px;
     line-height: 23px;
     padding-top: 9px;

@@ -1,4 +1,4 @@
-.stories__card-title {
+.stories-card__title {
   max-width: 554px;
   margin: 0 0 38px;
   font-size: 35px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .stories__card-title {
+  .stories-card__title {
     max-width: 263px;
     font-size: 23px;
     font-weight: 700;

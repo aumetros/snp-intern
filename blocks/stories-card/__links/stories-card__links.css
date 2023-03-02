@@ -1,4 +1,4 @@
-.stories__card-links {
+.stories-card__links {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .stories__card-links {
+  .stories-card__links {
     display: none;
   }
 }

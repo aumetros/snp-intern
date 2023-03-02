@@ -1,4 +1,4 @@
-.stories__card-link {
+.stories-card__link {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 20px;
@@ -6,7 +6,7 @@
   line-height: 28px;
 }
 
-.stories__card-link:hover {
+.stories-card__link:hover {
   text-decoration: underline;
   text-underline-offset: 6px;
 }

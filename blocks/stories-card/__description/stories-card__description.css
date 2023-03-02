@@ -1,4 +1,4 @@
-.stories__card-description {
+.stories-card__description {
   max-width: 554px;
   margin: 0;
   font-size: 20px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .stories__card-description {
+  .stories-card__description {
     font-size: 16px;
     line-height: 23px;
   }
