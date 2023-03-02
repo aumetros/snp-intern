@@ -1,11 +1,21 @@
 .tours-form__pseudo_type_radio {
-  padding-right: 11px;
-  background-image: url(../../../../images/radiobtn-unchecked-img.svg);  
+  width: 26px;
+  height: 26px;
+  border: 2px solid #1B1F2B;
+  margin-right: 11px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-size: 12px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 760px) {
   .tours-form__pseudo_type_radio {
-    padding-top: 2px;
-    padding-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-size: 9.23px 9.23px;
+    margin-top: 2px;
+    margin-right: 10px;
   }
 }

@@ -7,5 +7,5 @@
 }
 
 .tours-form__radio:checked + .tours-form__pseudo_type_radio {
-  background-image: url(../../../images/radiobtn-checked-img.svg);
+  background-image: url(../../../../images/radiobtn-checked-img.svg);
 }

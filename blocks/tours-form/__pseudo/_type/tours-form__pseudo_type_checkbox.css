@@ -1,7 +1,13 @@
 .tours-form__pseudo_type_checkbox {
-  padding-top: 8px;  
-  background-image: url(../../../../images/checkboxbtn-unchecked-img.svg);
+  width: 26px;
+  height: 26px;
   margin-right: 19px;
+  border: 2px solid #1B1F2B;
+  box-sizing: border-box;
+  border-radius: 5px;  
+  background-size: 13px 10px;
+  background-repeat: no-repeat;
+  background-position: center;  
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,7 +18,11 @@
 
 @media screen and (max-width: 760px) {
   .tours-form__pseudo_type_checkbox {
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
+    border-radius: 3px;
+    background-size: 10px 8px;
     transform: translateY(-4px);
   }
 }
