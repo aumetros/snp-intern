@@ -1,0 +1,7 @@
+.review-card__profile-foto {
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}

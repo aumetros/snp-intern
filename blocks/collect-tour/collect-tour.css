@@ -6,7 +6,6 @@
 
 @media screen and (max-width: 520px) {
   .collect-tour {
-    padding-left: 21px;
-    padding-right: 21px;
+    padding: 53px 21px 52px;
   }
 }

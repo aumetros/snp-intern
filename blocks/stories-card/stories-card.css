@@ -1,0 +1,36 @@
+.stories-card {
+  width: 100%;
+  min-height: 567px;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 60px;
+  color: #FFFFFF;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 769px) {  
+  .stories-card:hover .stories-card__forward-button {
+    background-color: #286562;
+  }
+  
+  .stories-card:active .stories-card__forward-button {
+    background-color: #EFA501;
+  }
+  
+  .stories-card:hover .stories-card__image {
+    transform: scale(1.2);
+  }
+  }
+  
+  @media screen and (max-width: 760px) {
+    .stories-card {
+      border-radius: 20px;
+      min-height: 455px;
+      padding: 30px 25px 30px 30px;
+    }
+  }

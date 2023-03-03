@@ -1,0 +1,11 @@
+.tours-types__type_active {
+  color: #EFA501;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  .tours-types__type_active {
+    text-underline-offset: 4px;
+  }
+}

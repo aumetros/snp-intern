@@ -1,0 +1,13 @@
+.socials__icon_el_inst {
+  background-image: url(../../../../images/ins-icon-img.svg);
+  background-size: 14px 14px;
+  margin-right: 8px;
+}
+@media screen and (max-width: 520px) {
+  .socials__icon_el_inst {
+    background-size: 10.77px 10.77px;
+    background-position: center center;
+    background-position-x: 7px;
+    margin-right: 0px;
+  }
+}
