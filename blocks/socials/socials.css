@@ -1,4 +1,4 @@
-.footer__socials {
+.socials {
   display: flex;
   gap: 24px;
   list-style-type: none;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 520px) {
-  .footer__socials {
+  .socials {
     gap: 16px;
   }
 }

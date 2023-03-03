@@ -4,7 +4,7 @@ const logo = header.querySelector(".header__logo");
 const menuItemList = header.querySelectorAll(".header__menu-item");
 const phoneNumber = header.querySelector(".header__phone-number");
 
-function blurNavBar() {
+function showNavBar() {
   const scrollPosition = window.scrollY;
   if (scrollPosition > 450) {
     header.classList.add("header_scrolled");
@@ -25,4 +25,4 @@ function blurNavBar() {
   }
 }
 
-window.addEventListener("scroll", blurNavBar);
+window.addEventListener("scroll", showNavBar);

@@ -1,4 +1,4 @@
-.footer__socials-link {
+.socials__link {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -7,16 +7,17 @@
   vertical-align: middle;
 }
 
-.footer__socials-link:hover {
+
+.socials__link:hover {
   text-decoration: underline;
 }
 
-.footer__socials-link:active {
+.socials__link:active {
   color: #EFA501;
 }
 
 @media screen and (max-width: 520px) {
-  .footer__socials-link {
+  .socials__link {
     font-size: 16px;
     line-height: 23px;
   }

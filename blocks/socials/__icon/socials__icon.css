@@ -1,4 +1,4 @@
-.footer__socials-icon {
+.socials__icon {
   width: 26px;
   height: 26px;
   margin-right: 10px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 520px) {
-  .footer__socials-icon {
+  .socials__icon {
     width: 20px;
     height: 20px;
     margin-right: 5px;
