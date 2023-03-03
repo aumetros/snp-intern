@@ -13,14 +13,15 @@
 @import url(../blocks/header/__navbar-container/header__navbar-container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo/_scrolled/header__logo_scrolled.css);
-@import url(../blocks/header/__menu/header__menu.css);
-@import url(../blocks/header/__menu-item/header__menu-item.css);
-@import url(../blocks/header/__menu-item/_scrolled/header__menu-item_scrolled.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__find-button/header__find-button.css);
 @import url(../blocks/header/__phone-number/header__phone-number.css);
 @import url(../blocks/header/__phone-number/_scrolled/header__phone-number_scrolled.css);
+
+@import url(../blocks/navigation-menu/navigation-menu.css);
+@import url(../blocks/navigation-menu/__item/navigation-menu__item.css);
+@import url(../blocks/navigation-menu/__item/_scrolled/navigation-menu__item_scrolled.css);
 
 @import url(../blocks/choose-tour/choose-tour.css);
 @import url(../blocks/choose-tour/__title/choose-tour__title.css);

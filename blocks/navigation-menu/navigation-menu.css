@@ -1,0 +1,20 @@
+.navigation-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1280px) {
+  .navigation-menu {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .navigation-menu {
+    display: none;
+  }
+}
