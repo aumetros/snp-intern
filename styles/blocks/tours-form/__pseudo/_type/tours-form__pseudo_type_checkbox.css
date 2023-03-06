@@ -7,7 +7,23 @@
   border-radius: 5px;  
   background-size: 13px 10px;
   background-repeat: no-repeat;
-  background-position: center;  
+  background-position: center;
+  position: relative;
+}
+
+.tours-form__pseudo_type_checkbox::after {
+  content: '';
+  position: absolute;
+  display: none;
+  top: 4px;
+  left: 8px;
+  width: 5px;
+  height: 10px;
+  border: solid #1B1F2B;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,5 +40,12 @@
     border-radius: 3px;
     background-size: 10px 8px;
     transform: translateY(-4px);
+  }
+
+  .tours-form__pseudo_type_checkbox::after {
+    top: 2px;
+    left: 6px;
+    width: 3px;
+    height: 8px;
   }
 }

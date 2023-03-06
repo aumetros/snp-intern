@@ -6,6 +6,6 @@
   clip: rect(0 0 0 0);
 }
 
-.tours-form__radio:checked + .tours-form__pseudo_type_radio {
-  background-image: url(../../../images/radiobtn-checked.svg);
+.tours-form__radio:checked + .tours-form__pseudo_type_radio::after {
+  display: block;
 }
