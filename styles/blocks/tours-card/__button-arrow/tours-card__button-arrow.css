@@ -1,7 +1,7 @@
-.stories-card__arrow-button {
+.tours-card__button-arrow {
   min-width: 22px;
   min-height: 15px;
-  background-image: url(../../../images/arrow-img.svg);
+  background-image: url(../../../../images/arrow-img.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

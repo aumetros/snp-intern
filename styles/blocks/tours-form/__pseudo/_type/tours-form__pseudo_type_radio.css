@@ -8,6 +8,19 @@
   background-size: 12px 12px;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.tours-form__pseudo_type_radio::after {
+  content: '';
+  position: absolute;
+  display: none;
+  top: 5px;
+  left: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #1B1F2B;
 }
 
 @media screen and (max-width: 760px) {
@@ -17,5 +30,12 @@
     background-size: 9.23px 9.23px;
     margin-top: 2px;
     margin-right: 10px;
+  }
+
+  .tours-form__pseudo_type_radio::after {
+    width: 9.23px;
+    height: 9.23px;
+    top: 3.5px;
+    left: 3.5px;
   }
 }

@@ -12,7 +12,7 @@
   -moz-appearance: none;
   appearance: none;
   background-position: calc(100% - 21px) center;
-  background-image: url('../../../images/dropdown-img.svg');
+  background-image: url('../../../../images/dropdown-img.svg');
   background-repeat: no-repeat;  
   background-size: 26px 26px;
   background-color: #F9F7F4;
