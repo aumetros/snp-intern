@@ -10,6 +10,8 @@
 
 .socials__link:hover {
   text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
 }
 
 .socials__link:active {
