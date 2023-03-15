@@ -151,12 +151,14 @@
             </div>
             <div class="tours-form__container">
               <label class="tours-form__label" for="direction">Направление</label>
-              <select class="tours-form__select" id="direction" name="direction" required>
-                <option value="" disabled selected hidden>Куда хотите ехать</option>
-                <option value="Санкт-Петербург">Санкт-Петербург</option>
-                <option value="Лондон">Лондон</option>
-                <option value="Ямайка">Ямайка</option>
-              </select>
+              <div class="tours-form__select-container">
+                <select class="tours-form__select" id="direction" name="direction" required>
+                  <option value="" disabled selected hidden>Куда хотите ехать</option>
+                  <option value="Санкт-Петербург">Санкт-Петербург</option>
+                  <option value="Лондон">Лондон</option>
+                  <option value="Ямайка">Ямайка</option>
+                </select>
+              </div>
             </div>
             <div class="tours-form__container">
               <label class="tours-form__label" for="email">Email</label>
@@ -195,7 +197,7 @@
                 <span>Нет</span>
               </label>
             </div>
-          </fieldset>          
+          </fieldset>
           <fieldset class="tours-form__fieldset tours-form__fieldset_type_agree">
             <label class="tours-form__label">
               <input class="tours-form__checkbox" type="checkbox" name="agree" value="agree" required>

@@ -54,6 +54,7 @@
 @import url(./blocks/tours-form/__label/tours-form__label.css);
 @import url(./blocks/tours-form/__label/_el/tours-form__label_el_radio.css);
 @import url(./blocks/tours-form/__input/tours-form__input.css);
+@import url(./blocks/tours-form/__select-container/tours-form__select-container.css);
 @import url(./blocks/tours-form/__select/tours-form__select.css);
 @import url(./blocks/tours-form/__date/tours-form__date.css);
 @import url(./blocks/tours-form/__comment/tours-form__comment.css);
