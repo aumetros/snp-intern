@@ -7,7 +7,7 @@
   position: absolute;
   display: block;
   top: 23px;
-  left: calc(100% - 40px);
+  right: 26px;
   width: 12px;
   height: 12px;
   border: solid #1B1F2B;
@@ -20,6 +20,6 @@
 @media screen and (max-width: 760px) {
   .tours-form__select-container::after {
     top: 13px;
-    left: calc(100% - 30px);
+    right: 16px;
   }
 }
