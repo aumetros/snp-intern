@@ -6,9 +6,6 @@
   padding: 15px 30px;
   background-color: #E0F0E5;
   color: #286562;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
   cursor: pointer;
 }
 
@@ -24,8 +21,6 @@
   .tours-form__reset-button {
     min-width: 134px;
     min-height: 47px;
-    font-size: 16px;
-    line-height: 23px;
     padding: 12px 29.5px;
   }
 }

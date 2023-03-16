@@ -2,17 +2,12 @@
   max-width: 418px;
   margin: 0 auto 100px;
   color: #A6A6A6;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
   text-align: center;
 }
 
 @media screen and (max-width: 760px) {
   .stories__subtitle {
-    max-width: 319px;
-    font-size: 16px;
-    line-height: 23px;
+    max-width: 319px;    
     margin-bottom: 50px;
   }
 }

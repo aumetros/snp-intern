@@ -1,11 +1,11 @@
-.tours-form__label {
+.text {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
 }
 
-@media screen and (max-width: 760px) {
-  .tours-form__label {
+@media screen and (max-width: 768px) {
+  .text {
     font-size: 16px;
     line-height: 23px;
   }

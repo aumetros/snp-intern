@@ -11,9 +11,6 @@
   align-items: center;
   gap: 17px;
   color: #FFFFFF;
-  font-size: 23px;
-  font-weight: 700;
-  line-height: 28px;
   transform: translateX(-20px);
   cursor: pointer;
 }
@@ -22,8 +19,6 @@
   .tours-card__forward-button {
     width: 123px;
     min-height: 26px;
-    font-size: 16px;
-    line-height: 23px;
     padding-bottom: 1px;
   }
 }

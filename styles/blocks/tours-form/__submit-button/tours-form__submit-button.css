@@ -7,9 +7,6 @@
   margin-right: 26px;
   background-color: #286562;
   color: #FFFFFF;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
   cursor: pointer;
 }
 
@@ -25,8 +22,6 @@
   .tours-form__submit-button {
     min-width: 134px;
     min-height: 47px;
-    font-size: 16px;
-    line-height: 23px;
     margin-right: 5px;
     padding: 12px 29.5px;
   }
