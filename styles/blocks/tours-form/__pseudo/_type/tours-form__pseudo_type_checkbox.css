@@ -39,7 +39,6 @@
     margin-right: 10px;
     border-radius: 3px;
     background-size: 10px 8px;
-    transform: translateY(-4px);
   }
 
   .tours-form__pseudo_type_checkbox::after {

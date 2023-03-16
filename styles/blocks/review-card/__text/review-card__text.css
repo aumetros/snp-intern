@@ -1,7 +1,4 @@
 .review-card__text {
-  font-size: 23px;
-  font-weight: 700;
-  line-height: 28px;
   margin: 0 0 28px;
 }
 
@@ -11,8 +8,6 @@
 
 @media screen and (max-width: 760px) {
   .review-card__text {
-    font-size: 16px;
-    line-height: 23px;
     margin-bottom: 23px;
   }
 }

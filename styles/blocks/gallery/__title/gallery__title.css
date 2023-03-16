@@ -1,18 +1,11 @@
 .gallery__title {
   max-width: 780px;
   margin: 0 auto 30px;
-  font-size: 59px;
-  font-weight: 700;
-  line-height: 73px;
-  text-align: center;
 }
 
 @media screen and (max-width: 760px) {
   .gallery__title {
     max-width: 318px;
-    font-size: 34px;
-    line-height: 38px;
-    letter-spacing: 0.02em;
     margin-bottom: 20px;
   }
 }

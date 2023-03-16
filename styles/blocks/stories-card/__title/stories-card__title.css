@@ -1,18 +1,12 @@
 .stories-card__title {
   max-width: 554px;
   margin: 0 0 38px;
-  font-size: 35px;
-  font-weight: 500;
-  line-height: 42px;
+  
 }
 
 @media screen and (max-width: 760px) {
   .stories-card__title {
-    max-width: 263px;
-    font-size: 23px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0.04em;
+    max-width: 263px;    
     margin-bottom: 20px;
   }
 }

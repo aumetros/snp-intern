@@ -1,20 +1,14 @@
 .tours-form__select {
   height: 68px;
+  width: 100%;
   border: 1px solid #F4F0E9;  
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-position: calc(100% - 21px) center;
-  background-image: url('../../../../images/dropdown-img.svg');
-  background-repeat: no-repeat;  
-  background-size: 26px 26px;
   background-color: #F9F7F4;
 }
 
@@ -37,9 +31,6 @@
 @media screen and (max-width: 760px) {
   .tours-form__select {
     height: 46px;
-    padding: 10px 10px 10px 9px;
-    font-size: 16px;
-    line-height: 23px;
-    background-position: calc(100% - 9px) center;
+    padding: 10px;
   }
 }

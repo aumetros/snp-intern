@@ -1,7 +1,4 @@
 .tours-types__type {
-  font-size: 23px;
-  font-weight: 700;
-  line-height: 28px;
   color: #1B1F2B; /**Для правильного отображения цвета в iOS**/
   border: 0;
   padding: 0;
@@ -12,11 +9,4 @@
 .tours-types__type:hover {
   text-decoration: underline;
   text-underline-offset: 10px;
-}
-
-@media screen and (max-width: 760px) {
-  .tours-types__type {
-    font-size: 16px;
-    line-height: 23px;
-  }
 }

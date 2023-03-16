@@ -1,9 +1,6 @@
 .stories-card__list {
   margin: 28px 0 0;
   padding-left: 12px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
   list-style: none;
 }
 
@@ -15,8 +12,6 @@
 
 @media screen and (max-width: 760px) {
   .stories-card__list {
-    font-size: 16px;
-    line-height: 23px;
     margin-top: 23px;
     padding-left: 9px;
   }

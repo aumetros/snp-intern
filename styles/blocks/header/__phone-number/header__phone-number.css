@@ -1,7 +1,4 @@
 .header__phone-number {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
   color: #FFFFFF;
   text-decoration: none;
   white-space: nowrap;
@@ -11,11 +8,4 @@
   text-decoration: underline;
   text-underline-offset: 6px;
   text-decoration-thickness: 1px;
-}
-
-@media screen and (max-width: 520px) {
-  .header__phone-number {
-    font-size: 16px;
-    line-height: 23px;
-  }
 }
