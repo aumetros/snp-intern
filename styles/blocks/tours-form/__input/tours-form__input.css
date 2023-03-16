@@ -5,9 +5,6 @@
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
   cursor: pointer;
 }
 
@@ -40,7 +37,5 @@
   .tours-form__input {
     height: 43px;
     padding: 10px;
-    font-size: 16px;
-    line-height: 23px;
   }
 }
