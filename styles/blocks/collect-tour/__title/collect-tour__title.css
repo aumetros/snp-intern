@@ -1,18 +1,11 @@
 .collect-tour__title {
-  max-width: 458px;
-  font-size: 59px;
-  font-weight: 700;
-  line-height: 73px;
-  margin: 0 auto 30px;
-  text-align: center;
+  max-width: 458px;  
+  margin: 0 auto 30px;  
 }
 
 @media screen and (max-width: 760px) {
   .collect-tour__title {
-    max-width: 318px;
-    font-size: 34px;
-    line-height: 38px;
-    letter-spacing: 0.02em;
+    max-width: 318px;    
     margin-bottom: 20px;
   }
 }
